@@ -1,16 +1,16 @@
 Veracode Community Open Source Projects
 =======================================
 
-A collection of useful open source projects that integrate with the CA Veracode APIs to automate scanning, results retrieval and other tasks.
+A collection of useful open source projects that integrate with the CA Veracode APIs to automate scanning, results retrieval and other tasks. These are community contributed and not supported by CA Veracode.
 
 Developer tools
 ---------------
 
-* [Ansible](https://github.com/telusdigital/ansible-veracode-scanner)
+* [Ansible](https://github.com/telusdigital/ansible-veracode-scanner) - allows uploading and scanning with Veracode from Ansible, with an option to send results to a Slack channel
 
-* [Bamboo](https://gitlab.com/buzzcode/Bamboo-Veracode)
+* [Bamboo](https://gitlab.com/buzzcode/Bamboo-Veracode) - full featured Bamboo plugin including configuration UI, wait for scan to complete, and "break the build" functionality
 
-* [Bamboo/Jira](https://github.com/buildcom/VeracodeAtlassianPlugin)
+* [Bamboo/Jira](https://github.com/buildcom/VeracodeAtlassianPlugin) - provides a pair of simple plugins for upload and results handling from within Bamboo, and a lightweight script to create Jira issues
 
 * [ConcourseCI, Gitlab, Travis](https://github.com/ctcampbell/veracode-ci-examples)
 
