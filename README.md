@@ -16,7 +16,7 @@ Developer tools
 
 * [Dynamic Scan and Wait for Result](https://github.com/christyson/dynamic-scan-and-wait-for-result) ([Christyson](https://github.com/christyson/)) - Extends the Java API Wrapper to provide "break the build" style scanning. Includes instructions on how to integrate this workflow into Jenkins.
 
-* [Gitlab](https://gitlab.com/ctcampbell/veracode-gitlab-example) ([Ctcampbell](https://gitlab.com/ctcampbell/) - An example configuration for Veracode integration with GitLab.
+* [Gitlab](https://gitlab.com/ctcampbell/veracode-gitlab-example) ([Ctcampbell](https://gitlab.com/ctcampbell/)) - An example configuration for Veracode integration with GitLab.
 
 * [Gradle](https://github.com/kctang/vt) ([Kctang](https://github.com/kctang/)) - Set of Gradle tasks, usable either as a command line submission tool or integrated as part of a continuous integration build process, to perform Veracode submission for applications and scan results for flaws.
 
