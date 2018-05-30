@@ -1,7 +1,9 @@
 Veracode Community Open Source Projects
 =======================================
 
-A collection of useful open source projects that integrate with the CA Veracode APIs to automate scanning, results retrieval and other tasks. These are community contributed and not supported by CA Veracode.
+A collection of useful open source projects that integrate with the CA Veracode APIs to automate scanning, results retrieval and other tasks. 
+
+These projects are community contributed and not supported by CA Veracode. For a list of supported projects, please see the listing of projects on [Veracode.com](https://www.veracode.com/products/core-platform-and-architecture/apis-and-plugins).
 
 Developer tools
 ---------------
@@ -53,7 +55,13 @@ Other integrations
 
 * [Go wrapper](https://github.com/brian1917/vcodeapi) ([Brian1917](https://github.com/brian1917)) - Wrapper written in Go for easy use of Veracode APIs
 
+* [node-veracode-api-client](https://github.com/m4l1c3/node-veracode-api-client) ([M4l1c3](https://github.com/m4l1c3/)) - Node.js API client.
+
 * [verapi](https://github.com/fsclyde/verapi) ([Fsclyde](https://github.com/fsclyde/)) - Lambda function for automating Veracode static scans
+
+* [veracode-api (Node)](https://github.com/kinichahau87/veracode-api) ([Kinichahau87](https://github.com/~kinichahau87)) - Node.js package for automating Veracode scanning from the command line.
+
+* [veracode-api (Ruby)](https://github.com/mort666/veracode-api) ([Mort666](https://github.com/mort666/)) - Ruby Wrapper for the Veracode API.
 
 * [Veracode Notifier](https://github.com/ctcampbell/veracode-notifier) ([Ctcampbell](https://github.com/ctcampbell)) - Lambda function that sends a message to a web hook, for instance for use with Slack
 
