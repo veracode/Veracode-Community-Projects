@@ -5,6 +5,16 @@ A collection of useful open source projects that integrate with the CA Veracode 
 
 These projects are community contributed and not supported by CA Veracode. For a list of supported projects, please see the listing of projects on [Veracode.com](https://www.veracode.com/products/core-platform-and-architecture/apis-and-plugins).
 
+Automating common Veracode Platform tasks
+-----------------------------------------
+* [VcodeAutoMitigate](https://github.com/brian1917/vcodeAutoMitigate) ([Brian1917](https://github.com/brian1917/)) - Command line app that mitigates flaws in Veracode based on CWE, scan type, and specific text in the description.
+
+* [VcodeMitigationExpire](https://github.com/brian1917/vcodeMitigationExpire) ([Brian1917](https://github.com/brian1917/)) - Utility designed to be run on a regular cadence (e.g., weekly cron job) to expire mitigations. The types of mitigations, expiration references, and other settings are controlled in a JSON config file.
+
+* [Veracode mitigation copier](https://github.com/brian1917/veracode-mitigation-copier) ([Brian1917](https://github.com/brian1917/) - Copies mitigations from one Veracode profile to another if it's the same flaw based on the following flaw attributes: issueid, cweid, type, sourcefile, and line. The script will copy all proposed and accepted mitigations for the flaw. The script will skip a flaw in the copy_to build if it already has an accepted mitigation.
+
+* [Veracode BCA Builder](https://github.com/brian1917/veracode-bca-builder) ([Brian1917](https://github.com/brian1917/)) - Shell script to generate the BCA package to scan an iOS app.
+
 Developer tools
 ---------------
 
@@ -17,6 +27,8 @@ Developer tools
 * [ConcourseCI, Gitlab, Travis](https://github.com/ctcampbell/veracode-ci-examples) ([Ctcampbell](https://github.com/ctcampbell)) - Example configurations for integrating Veracode scanning in various continuous integration systems.
 
 * [Dynamic Scan and Wait for Result](https://github.com/christyson/dynamic-scan-and-wait-for-result) ([Christyson](https://github.com/christyson/)) - Extends the Java API Wrapper to provide "break the build" style scanning. Includes instructions on how to integrate this workflow into Jenkins.
+
+* [Flowdock](https://github.com/brian1917/vcodeFlowdockNotifier) ([Brian1917](https://github.com/brian1917/)) - Utility designed to be run in a build process after a Veracode scan to notify a Flowdock flow that the scan completed. Optional to include policy compliance info in notification.
 
 * [Gitlab](https://gitlab.com/ctcampbell/veracode-gitlab-example) ([Ctcampbell](https://gitlab.com/ctcampbell/)) - An example configuration for Veracode integration with GitLab.
 
@@ -47,6 +59,14 @@ Application vulnerability correlation
 -------------------------------------
 
 * [DefectDojo](https://github.com/DefectDojo/django-DefectDojo) - DefectDojo is an open-source application vulnerability correlation and security orchestration application. DefectDojo supports importing Veracode results.
+
+HMAC Signing libraries
+----------------------
+Projects in this category implement HMAC digest signing, which is required to use Veracode APIs that use a Veracode ID and Key.
+
+* [vcodeHMAC](https://github.com/brian1917/vcodeHMAC) ([Brian1917](https://github.com/brian1917/)) - Go package that creates an authorization header using Veracode API Key and ID.
+
+* [vcodeHMAC-CLI](https://github.com/brian1917/vcodeHMAC-CLI) ([Brian1917](https://github.com/brian1917/)) - CLI tool to generate an authorization header for Veracode APIs using API ID and Key. Given an HTTP method and URL, and the location of your Veracode API credentials file, you will get the value of an Authorization header printed out for piping into curl, httpie, or other scripting uses.
 
 Other integrations
 ------------------
