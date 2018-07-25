@@ -36,7 +36,7 @@ Developer tools
 
 * [Gradle](https://github.com/kctang/vt) ([Kctang](https://github.com/kctang/)) - Set of Gradle tasks, usable either as a command line submission tool or integrated as part of a continuous integration build process, to perform Veracode submission for applications and scan results for flaws.
 
-* [Insomnia][https://github.com/ctcampbell/insomnia-plugin-veracode-hmac] ([Ctcampbell](https://github.com/ctcampbell/)) - Adds an HMAC authentication header to Veracode API requests in Insomnia.
+* [Insomnia](https://github.com/ctcampbell/insomnia-plugin-veracode-hmac) ([Ctcampbell](https://github.com/ctcampbell/)) - Adds an HMAC authentication header to Veracode API requests in Insomnia.
 
 * [PowerShell](https://github.com/unregistered436/veracode-integrations/tree/master/powershell) ([Unregistered436](https://github.com/unregistered436)) - PowerShell script for pushing binaries to Veracode using Java API.
 
