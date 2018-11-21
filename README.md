@@ -71,6 +71,8 @@ HMAC Signing libraries
 ----------------------
 Projects in this category implement HMAC digest signing, which is required to use Veracode APIs that use a [Veracode ID and Key](https://help.veracode.com/reader/lsoDk5r2cv~YrwLQSI7lfw/Z70twkx761Oc2RjWUDAWFA).
 
+* [NodeJS](https://gist.github.com/mrpinghe/f44479f2270ea36bf3b7cc958cc76cc0) - NodeJS lib to generate authorization header with Veracode API Key and ID. Sample usage in the comment of the gist
+
 * [vcodeHMAC](https://github.com/brian1917/vcodeHMAC) ([Brian1917](https://github.com/brian1917/)) - Go package that creates an authorization header using Veracode API Key and ID.
 
 * [vcodeHMAC-CLI](https://github.com/brian1917/vcodeHMAC-CLI) ([Brian1917](https://github.com/brian1917/)) - CLI tool to generate an authorization header for Veracode APIs using API ID and Key. Given an HTTP method and URL, and the location of your Veracode API credentials file, you will get the value of an Authorization header printed out for piping into curl, httpie, or other scripting uses.
