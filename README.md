@@ -46,6 +46,8 @@ Developer tools
 
 * [SonarQube](https://gitlab.com/buzzcode/SonarQube-Veracode) ([Buzzcode](https://gitlab.com/buzzcode)) - Unofficial Veracode plugin for SonarQube.
 
+* [Veracode QuickScan](https://github.com/relaxnow/veracode-quick-scan) ([relaxnow](https://github.com/relaxnow)) - PHP example of how to connect to the APIs, scan a couple of files and get results.
+
 * [veracode-tools](https://github.com/ctcampbell/veracode-tools) ([Ctcampbell](https://github.com/ctcampbell)) - Docker image with all Veracode tools pre-installed. 
 
 
