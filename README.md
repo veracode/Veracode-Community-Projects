@@ -60,6 +60,8 @@ Results collection and display
 
 * [Hygieia](https://github.com/mickfeech/hygieia_veracode_collector) ([Mickfeech](https://github.com/mickfeech/)) - Veracode scan collector and parser for the [Hygieia dashboard](https://github.com/Hygieia/ExecDashboard).
 
+* [JupiterOne](https://github.com/JupiterOne/jupiter-integration-veracode) ([JupiterOne](https://github.com/JupiterOne/)) - A JupiterOne managed integration for Veracode.
+
 * [SCA Extractor](https://github.com/brian1917/vcodeSCAExtractor) ([Brian1917](https://github.com/brian1917)) - Creates a CSV file with open source vulnerability (SCA) findings for all builds in the input file.
 
 * [Stats](https://github.com/ctcampbell/veracode-stats) ([Ctcampbell](https://github.com/ctcampbell)) - Summary statistics for a Veracode account on the command line.
