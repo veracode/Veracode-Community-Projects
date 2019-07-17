@@ -22,7 +22,7 @@ Developer tools
 
 * [Bamboo](https://gitlab.com/buzzcode/Bamboo-Veracode) ([Buzzcode](https://gitlab.com/buzzcode/)) - full featured Bamboo plugin including configuration UI, wait for scan to complete, and "break the build" functionality
 
-* [Bamboo/Jira](https://github.com/buildcom/VeracodeAtlassianPlugin) ([Buildcom](https://github.com/buildcom/)) - provides a pair of simple plugins for upload and results handling from within Bamboo, and a lightweight script to create Jira issues
+* [Bamboo/Jira](https://github.com/buildcom/VeracodeAtlassianPlugin) ([Buildcom](https://github.com/buildcom/)) - provides a pair of simple plugins for upload and results handling from within Bamboo, and a lightweight script to create Jira issues (archived project)
 
 * [CircleCI](https://github.com/unregistered436/veracode-integrations/tree/master/shell-script) ([Unregistered436](https://github.com/unregistered436)) - Veracode Upload and Scan Shell Script, originally written for CircleCI but can be used for any build system that can run a shell script in bash.
 
@@ -31,8 +31,6 @@ Developer tools
 * [Dynamic Scan and Wait for Result](https://github.com/christyson/dynamic-scan-and-wait-for-result) ([Christyson](https://github.com/christyson/)) - Extends the Java API Wrapper to provide "break the build" style scanning. Includes instructions on how to integrate this workflow into Jenkins.
 
 * [Flowdock](https://github.com/brian1917/vcodeFlowdockNotifier) ([Brian1917](https://github.com/brian1917/)) - Utility designed to be run in a build process after a Veracode scan to notify a Flowdock flow that the scan completed. Optional to include policy compliance info in notification.
-
-* [Gitlab](https://gitlab.com/ctcampbell/veracode-gitlab-example) ([Ctcampbell](https://gitlab.com/ctcampbell/)) - An example configuration for Veracode integration with GitLab.
 
 * [Gradle](https://github.com/kctang/vt) ([Kctang](https://github.com/kctang/)) - Set of Gradle tasks, usable either as a command line submission tool or integrated as part of a continuous integration build process, to perform Veracode submission for applications and scan results for flaws.
 
@@ -55,8 +53,6 @@ Results collection and display
 ------------------------------
 
 * [Excel (XLS)](https://github.com/Komiblanka/Veracode2xls), [(XLSX)](https://github.com/Komiblanka/Veracode2xlsx) ([Komiblanka](https://github.com/Komiblanka/))- Python scripts to format Veracode XML results into Excel workbook formats for easier human consumption.
-
-* [go Veracode results](https://github.com/m4l1c3/go-veracode-results) ([M4l1c3](https://github.com/m4l1c3/)) - Go utility for processing Veracode results
 
 * [Hygieia](https://github.com/mickfeech/hygieia_veracode_collector) ([Mickfeech](https://github.com/mickfeech/)) - Veracode scan collector and parser for the [Hygieia dashboard](https://github.com/Hygieia/ExecDashboard).
 
