@@ -106,7 +106,7 @@ API wrappers
 
 * [veracode-api (Ruby)](https://github.com/mort666/veracode-api) ([Mort666](https://github.com/mort666/)) - Ruby Wrapper for the Veracode API.
 
-* [veracode-api-clients](https://github.com/jourzero/veracode-api-clients) ([Jourzero](https://github.com/jourzero/) - Client code using the Veracode REST and XML APIs. Includes handlers for Veracode Dynamic Analysis scanning.
+* [veracode-api-clients](https://github.com/jourzero/veracode-api-clients) ([Jourzero](https://github.com/jourzero/)) - Client code using the Veracode REST and XML APIs. Includes handlers for Veracode Dynamic Analysis scanning.
 
 Other integrations
 ------------------
