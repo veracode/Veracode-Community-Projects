@@ -76,6 +76,10 @@ Results collection and display
 
 * [veracode-to-csv](https://github.com/ctcampbell/veracode-to-csv) ([Ctcampbell](https://github.com/ctcampbell)) - This script outputs one CSV file per scan per application profile visible in a Veracode platform account. The output can be imported into  Splunk for further analysis.
 
+Dynamic Analysis scanning examples
+----------------------------------
+* [Veracode Azure YML Samples](https://github.com/Clintpollock/VeracodeAzureYMLSamples/) - Samples of Azure YML files that work with Veracode scanning
+
 Application vulnerability correlation
 -------------------------------------
 
