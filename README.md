@@ -78,7 +78,8 @@ Results collection and display
 
 Sample CI/CD configuration files
 ---------------------------
-* [Veracode Azure YML Samples](https://github.com/Clintpollock/VeracodeAzureYMLSamples/) - Samples of Azure YML files that work with Veracode scanning
+* [Veracode Azure YML Samples](https://github.com/Clintpollock/VeracodeAzureYMLSamples/) ([Clintpollock](https://github.com/Clintpollock)) - Samples of Azure YML files that work with Veracode scanning
+* [Veracode Dynamic Analysis Azure Sample](https://github.com/jphillips-vc/Veracode-Dynamic-Analysis-Azure-Example) - ([Jphillips-vc](https://github.com/jphillips-vc/)) - Veracode Dynamic Analysis Azure Sample including script based authentication, and ISM configuration.
 * [veracode-scripts](https://gitlab.com/aszaryk/veracode-scripts) - Various example scripts for Jenkins and GitLab pipelines, including both static and dynamic examples.
 
 Application vulnerability correlation
