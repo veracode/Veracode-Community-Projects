@@ -93,7 +93,7 @@ Projects in this category implement HMAC digest signing, which is required to us
 
 * [auth.js](https://gist.github.com/ThibaudLopez/fe1baeaa4461cbf0bfa8fd258ff43243) - Veracode custom HMAC request signing algorithm (used for API authorization), written in JavaScript -- uses Web Crypto API instead of the Node Crypto library
 
-* [PythonHMAC](https://github.com/ctcampbell/veracode-python-hmac-example) - simple example of usage of the Veracode API signing library provided in the Veracode Help Center
+* [PythonHMAC](https://github.com/veracode/veracode-python-hmac-example) - simple example of usage of the Veracode API signing library provided in the Veracode Help Center
 
 * [NodeJS](https://gist.github.com/mrpinghe/f44479f2270ea36bf3b7cc958cc76cc0) - NodeJS lib, written in JavaScript, to generate authorization header with Veracode API Key and ID. Sample usage in the comment of the gist
 
