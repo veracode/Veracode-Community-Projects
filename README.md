@@ -122,6 +122,8 @@ Projects in this category implement HMAC digest signing, which is required to us
 API wrappers
 ------------
 
+* [.NET Core Nuget Package Wrapper](https://github.com/sebcoles/VeracodeServicesCore) ([Seb Coles](https://github.com/sebcoles)) - C# NuGet package that wraps XML APIs
+
 * [Go wrapper](https://github.com/brian1917/vcodeapi) ([Brian1917](https://github.com/brian1917)) - Wrapper written in Go for easy use of Veracode APIs
 
 * [node-veracode-api-client](https://github.com/m4l1c3/node-veracode-api-client) ([M4l1c3](https://github.com/m4l1c3/)) - Node.js API client.
@@ -144,6 +146,8 @@ Other integrations
 * [Veracode-cli](https://github.com/adidas/veracode-cli) ([Adidas](https://github.com/adidas)) - Automated way to check application status and DevSecops compliance.
 
 * [Veracode Notifier](https://github.com/ctcampbell/veracode-notifier) ([Ctcampbell](https://github.com/ctcampbell)) - Lambda function that sends a message to a web hook, for instance for use with Slack
+
+* [VeraHooks Mitigation Webhooks](https://github.com/sebcoles/VeraHooks) ([Seb Coles](https://github.com/sebcoles)) - React .NET Core solution for creating custom webhooks that watch application profiles and trigger when mitigations meet specified conditions.
 
 Secure coding examples
 ----------------------
