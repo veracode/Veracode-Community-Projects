@@ -115,6 +115,8 @@ Projects in this category implement HMAC digest signing, which is required to us
 
 * [veracode-go-hmac-authentication](https://github.com/antfie/veracode-go-hmac-authentication) ([antfie](https://github.com/antfie/)) - A simple Go package that follows the format of the existing HMAC Authentication Examples found at https://help.veracode.com/reader/LMv_dtSHyb7iIxAQznC~9w/CUv4heF9z9tOBnZ1uiB8UA.
 
+* [Veracode_HMAC_Auth](https://github.com/rafaelzm2000/Veracode_HMAC_Auth) ([rafaelzm2000](https://github.com/rafaelzm2000/)) - A PowerShell example for doing HMAC authentication to the Veracode APIs.
+
 * [Using curl and openssl to access the Veracode API endpoint](https://gist.github.com/m9aertner/7ae804a5297617456f81c8b5a3a9305b) ([m9aertner](https://gist.github.com/m9aertner)) - short article illustrating use of built-in shell tools to handle HMAC signing and send API requests from the command line.
 
 API wrappers
