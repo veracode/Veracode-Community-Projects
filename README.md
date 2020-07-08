@@ -136,6 +136,8 @@ API wrappers
 
 * [veracode-api-clients](https://github.com/jourzero/veracode-api-clients) ([Jourzero](https://github.com/jourzero/)) - Client code using the Veracode REST and XML APIs. Includes handlers for Veracode Dynamic Analysis scanning.
 
+* [veracode-python](https://github.com/chuckorde/veracode-python) ([Chuckorde](https://github.com/chuckorde/)) - A python wrapper for communicating with the Veracode APIs.
+
 Other integrations
 ------------------
 
