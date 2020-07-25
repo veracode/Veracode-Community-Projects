@@ -93,6 +93,8 @@ Results collection and display
 
 * [VeraData](https://github.com/sebcoles/VeraData) ([Seb Coles](https://github.com/sebcoles)) - Console application that will retrieve data (all scans, flaws, mitigations etc) for a given AppId and store the results in a relational schema (only supports MSSQL Server currently) ready for plugging your favourite BI tool into!
 
+* [VeraCustomTriage](https://github.com/sebcoles/VeraCustomTriage) ([Seb Coles](https://github.com/sebcoles)) - App that produces a .xlsx remediation plan from a set of scan results, but augmented with information from JSON configuration file. Responses are added when flaw criteria are met (such as a CWE ID, module name, file or line number). This allows custom text such as internal workflows, wiki links, training, code snippets, 2nd party information or other languages into the auto generated remediation plan. Enables app sec teams to triage large volumes of flaws quickly whilst sharing a core advice repository.
+
 * [Veracode Report Converter (CSV)](https://github.com/dipsylala/VeracodeReportConverter-Windows) ([Dipsylala](https://github.com/dipsylala/)) - .NET Framework utility to extract useful data from Detailed Report XML file into CSV format
 
 * [Veracode Report Converter - Portable (CSV)](https://github.com/dipsylala/VeracodeReportConverter-Portable) ([Dipsylala](https://github.com/dipsylala/)) - .NET Core utility to extract useful data from Detailed Report XML file into CSV format
