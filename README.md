@@ -28,6 +28,8 @@ These projects are community contributed and not supported by Veracode. For a li
 
 ## Automating common Veracode Platform tasks
 
+- [Check Build Status](https://github.com/christyson/check_build_status) ([Christyson](https://github.com/christyson/check_build_status)) - Script to check if an application profile in Veracode has a build running currently.
+
 - [Veracode API Credentials Expiry](https://github.com/christyson/veracode-python-api_credentials_expiry-example) ([Christyson](https://github.com/christyson/veracode-python-api_credentials_expiry-example)) - A simple example to get the exiration dates of api credentials for your users.
 
 - [VcodeAutoMitigate](https://github.com/brian1917/vcodeAutoMitigate) ([Brian1917](https://github.com/brian1917/)) - Command line app that mitigates flaws in Veracode based on CWE, scan type, and specific text in the description.
