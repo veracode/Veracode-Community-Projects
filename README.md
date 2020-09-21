@@ -28,9 +28,9 @@ These projects are community contributed and not supported by Veracode. For a li
 
 ## Automating common Veracode Platform tasks
 
-- [Veracode_Delete_Sandbox](https://github.com/christyson/veracode_delete_sandbox) ([Christyson](https://github.com/christyson/veracode_delete_sandbox)) - A simple example script to delete a Sandbox if it exists in a Veracode application profile and you have the appropriate permissions.
+- [Veracode_Delete_Sandbox](https://github.com/christyson/veracode_delete_sandbox) ([Christyson](https://github.com/christyson/)) - A simple example script to delete a Sandbox if it exists in a Veracode application profile and you have the appropriate permissions.
 
-- [Check Build Status](https://github.com/christyson/check_build_status) ([Christyson](https://github.com/christyson/check_build_status)) - Script to check if an application profile in Veracode has a build running currently.
+- [Check Build Status](https://github.com/christyson/check_build_status) ([Christyson](https://github.com/christyson/)) - Script to check if an application profile in Veracode has a build running currently.
 
 
 - [Veracode API Credentials Expiry](https://github.com/christyson/veracode-python-api_credentials_expiry-example) ([Christyson](https://github.com/christyson/veracode-python-api_credentials_expiry-example)) - A simple example to get the exiration dates of api credentials for your users.
@@ -48,6 +48,8 @@ These projects are community contributed and not supported by Veracode. For a li
 - [Veracode Sandbox Mitigated Unique Findings](https://github.com/ctcampbell/veracode-sandbox-mitigated-unique-findings) ([Ctcampbell](https://github.com/ctcampbell)) - This script will pull all open findings across all sandboxes for all applications and calculate which mitigated (proposed, accepted, or rejected) findings only exist in a single sandbox, and therefore may be deleted when the sandbox is deleted.
 
 - [Veracode User Bulk Role Assign](https://github.com/tjarrettveracode/veracode-user-bulk-role-assign) ([Tjarrettveracode](https://github.com/tjarrettveracode/)) - Uses the Veracode Identity API to add roles (Security Labs User, Greenlight IDE User, or eLearning) to existing users.
+
+- [Veracode Workspace Auto Create](https://github.com/tjarrettveracode/veracode-workspace-auto-create) ([Tjarrettveracode](https://github.com/tjarrettveracode/)) - Uses the Veracode Agent Based Scan API and other Veracode REST APIs to automatically create a workspace for application profiles in a Veracode organization.
 
 ## Developer tools
 
@@ -147,6 +149,8 @@ These projects are community contributed and not supported by Veracode. For a li
 
 - [DefectDojo](https://github.com/DefectDojo/django-DefectDojo) - DefectDojo is an open-source application vulnerability correlation and security orchestration application. DefectDojo supports importing Veracode results.
 
+- [Veracode Archer](https://github.com/veracode/veracode-archer) - Script to export a Veracode Archer report file to disk. Usage: set on a timer and run daily or weekly, then import the results into RSA Archer.
+
 ## HMAC Signing libraries
 
 Projects in this category implement HMAC digest signing, which is required to use Veracode APIs that use a [Veracode ID and Key](https://help.veracode.com/reader/lsoDk5r2cv~YrwLQSI7lfw/Z70twkx761Oc2RjWUDAWFA). Also see the Postman and Insomnia examples in [API Testing Tools](#api-testing-tools).
@@ -180,6 +184,8 @@ Projects in this category implement HMAC digest signing, which is required to us
 - [veracode-api-clients](https://github.com/jourzero/veracode-api-clients) ([Jourzero](https://github.com/jourzero/)) - Client code using the Veracode REST and XML APIs. Includes handlers for Veracode Dynamic Analysis scanning.
 
 - [veracode-python](https://github.com/chuckorde/veracode-python) ([Chuckorde](https://github.com/chuckorde/)) - A python wrapper for communicating with the Veracode APIs.
+
+- [veracode-api-py](https://github.com/tjarrettveracode/veracode-api-py) ([Tjarrettveracode](https://github.com/tjarrettveracode)) - Python helper library for working with the Veracode APIs. Handles retries, pagination, and other features of the modern Veracode REST APIs.
 
 ## Other integrations
 
