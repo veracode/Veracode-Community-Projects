@@ -8,21 +8,22 @@ These projects are community contributed and not supported by Veracode. For a li
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Contents**
 
-- [Automating common Veracode Platform tasks](#automating-common-veracode-platform-tasks)
-- [Developer tools](#developer-tools)
-  - [CI/CD](#cicd)
-  - [Build tools](#build-tools)
-  - [IDEs](#ides)
-  - [API testing tools](#api-testing-tools)
-  - [Other](#other)
-- [Pipeline Scan projects](#pipeline-scan-projects)
-- [Results collection and display](#results-collection-and-display)
-- [Application vulnerability correlation](#application-vulnerability-correlation)
-- [HMAC Signing libraries](#hmac-signing-libraries)
-- [API wrappers](#api-wrappers)
-- [Other integrations](#other-integrations)
-- [Secure coding examples](#secure-coding-examples)
-- [Insecure applications](#insecure-applications)
+- [Veracode Community Open Source Projects](#veracode-community-open-source-projects)
+  - [Automating common Veracode Platform tasks](#automating-common-veracode-platform-tasks)
+  - [Developer tools](#developer-tools)
+    - [CI/CD](#cicd)
+    - [Build tools](#build-tools)
+    - [IDEs](#ides)
+    - [API testing tools](#api-testing-tools)
+    - [Other](#other)
+  - [Pipeline Scan projects](#pipeline-scan-projects)
+  - [Results collection and display](#results-collection-and-display)
+  - [Application vulnerability correlation](#application-vulnerability-correlation)
+  - [HMAC Signing libraries](#hmac-signing-libraries)
+  - [API wrappers](#api-wrappers)
+  - [Other integrations](#other-integrations)
+  - [Secure coding examples](#secure-coding-examples)
+  - [Insecure applications](#insecure-applications)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -219,6 +220,8 @@ Projects in this category implement HMAC digest signing, which is required to us
 - [Veracode Notifier](https://github.com/ctcampbell/veracode-notifier) ([Ctcampbell](https://github.com/ctcampbell)) - Lambda function that sends a message to a web hook, for instance for use with Slack
 
 - [VeraHooks Mitigation Webhooks](https://github.com/sebcoles/VeraHooks) ([Seb Coles](https://github.com/sebcoles)) - React .NET Core solution for creating custom webhooks that watch application profiles and trigger when mitigations meet specified conditions.
+
+- [Veracode Dynamic Analysis Examples](https://github.com/anon-veracoder/veracode-dynamic-analysis-api-examples) ([anon-veracoder](https://github.com/anon-veracoder)) - Dynamic Analysis API Examples.  Currently includes example code for using the Scanner Variables feature, where credentials can be defined and updated at the account level, and referenced in Selenium login scripts.
 
 ## Secure coding examples
 
