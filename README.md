@@ -143,6 +143,8 @@ These projects are community contributed and not supported by Veracode. For a li
 
 - [Pipeline2DetailedReport](https://github.com/jphillips-vc/pipeline2detailedreport) ([JPhillips-vc](https://github.com/jphillips-vc/)) - translate Veracode Pipeline Scan results into DetailedReport XML format, allowing you to import them into an IDE plugin for remediation.
 
+- [Pipeline-To-Issues](https://github.com/buzzcode/pipeline-to-issues) ([Buzzcode](https://github.com/buzzcode/)) - Import Veracode Pipeline scan results to GitHub issues.
+
 ## Results collection and display
 
 - [Excel (XLS)](https://github.com/Komiblanka/Veracode2xls), [(XLSX)](https://github.com/Komiblanka/Veracode2xlsx) ([Komiblanka](https://github.com/Komiblanka/))- Python scripts to format Veracode XML results into Excel workbook formats for easier human consumption.
