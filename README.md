@@ -145,6 +145,8 @@ These projects are community contributed and not supported by Veracode. For a li
 
 - [Pipeline-To-Issues](https://github.com/buzzcode/pipeline-to-issues) ([Buzzcode](https://github.com/buzzcode/)) - Import Veracode Pipeline scan results to GitHub issues.
 
+- [veracode-pipeline-PR-comment](https://github.com/Lerer/veracode-pipeline-PR-comment) ([Lerer](https://github.com/Lerer/veracode-pipeline-PR-comment)) - Sends output of Pipeline Scan to a comment on a pull request.
+
 ## Results collection and display
 
 - [Excel (XLS)](https://github.com/Komiblanka/Veracode2xls), [(XLSX)](https://github.com/Komiblanka/Veracode2xlsx) ([Komiblanka](https://github.com/Komiblanka/))- Python scripts to format Veracode XML results into Excel workbook formats for easier human consumption.
