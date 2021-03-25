@@ -8,22 +8,22 @@ These projects are community contributed and not supported by Veracode. For a li
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Contents**
 
-- [Veracode Community Open Source Projects](#veracode-community-open-source-projects)
-  - [Automating common Veracode Platform tasks](#automating-common-veracode-platform-tasks)
-  - [Developer tools](#developer-tools)
-    - [CI/CD](#cicd)
-    - [Build tools](#build-tools)
-    - [IDEs](#ides)
-    - [API testing tools](#api-testing-tools)
-    - [Other](#other)
-  - [Pipeline Scan projects](#pipeline-scan-projects)
-  - [Results collection and display](#results-collection-and-display)
-  - [Application vulnerability correlation](#application-vulnerability-correlation)
-  - [HMAC Signing libraries](#hmac-signing-libraries)
-  - [API wrappers](#api-wrappers)
-  - [Other integrations](#other-integrations)
-  - [Secure coding examples](#secure-coding-examples)
-  - [Insecure applications](#insecure-applications)
+- [Automating common Veracode Platform tasks](#automating-common-veracode-platform-tasks)
+- [Developer tools](#developer-tools)
+  - [CI/CD](#cicd)
+  - [Build tools](#build-tools)
+  - [IDEs](#ides)
+  - [API testing tools](#api-testing-tools)
+  - [Other](#other)
+- [Pipeline Scan projects](#pipeline-scan-projects)
+- [Dynamic Analysis projects](#dynamic-analysis-projects)
+- [Results collection and display](#results-collection-and-display)
+- [Application vulnerability correlation](#application-vulnerability-correlation)
+- [HMAC Signing libraries](#hmac-signing-libraries)
+- [API wrappers](#api-wrappers)
+- [Other integrations](#other-integrations)
+- [Secure coding examples](#secure-coding-examples)
+- [Insecure applications](#insecure-applications)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -127,8 +127,6 @@ These projects are community contributed and not supported by Veracode. For a li
 
 - [Ansible](https://github.com/telusdigital/ansible-veracode-scanner) ([Telus Digital](https://github.com/telusdigital)) - allows uploading and scanning with Veracode from Ansible, with an option to send results to a Slack channel
 
-- [Dynamic Scan and Wait for Result](https://github.com/christyson/dynamic-scan-and-wait-for-result) ([Christyson](https://github.com/christyson/)) - Extends the Java API Wrapper to provide "break the build" style scanning. Includes instructions on how to integrate this workflow into Jenkins.
-
 - [Flowdock](https://github.com/brian1917/vcodeFlowdockNotifier) ([Brian1917](https://github.com/brian1917/)) - Utility designed to be run in a build process after a Veracode scan to notify a Flowdock flow that the scan completed. Optional to include policy compliance info in notification.
 
 - [PowerShell](https://github.com/unregistered436/veracode-integrations/tree/master/powershell) ([Unregistered436](https://github.com/unregistered436)) - PowerShell script for pushing binaries to Veracode using Java API.
@@ -150,6 +148,14 @@ These projects are community contributed and not supported by Veracode. For a li
 - [Pipeline-To-Issues](https://github.com/buzzcode/pipeline-to-issues) ([Buzzcode](https://github.com/buzzcode/)) - Import Veracode Pipeline scan results to GitHub issues.
 
 - [veracode-pipeline-PR-comment](https://github.com/Lerer/veracode-pipeline-PR-comment) ([Lerer](https://github.com/Lerer/veracode-pipeline-PR-comment)) - Sends output of Pipeline Scan to a comment on a pull request.
+
+## Dynamic Analysis projects
+
+- [Dynamic Scan and Wait for Result](https://github.com/christyson/dynamic-scan-and-wait-for-result) ([Christyson](https://github.com/christyson/)) - Extends the Java API Wrapper to provide "break the build" style scanning. Includes instructions on how to integrate this workflow into Jenkins.
+
+- [veracode-da-reset-scheduler](https://github.com/dennismedeiros/veracode-da-reset-recheduler) ([dennismedeiros](https://github.com/dennismedeiros)) - Resets all recurrent scheduled analysis jobs configured for one year that have expired.
+
+- [Veracode Dynamic Analysis Examples](https://github.com/anon-veracoder/veracode-dynamic-analysis-api-examples) ([anon-veracoder](https://github.com/anon-veracoder)) - Dynamic Analysis API Examples.  Currently includes example code for using the Scanner Variables feature, where credentials can be defined and updated at the account level, and referenced in Selenium login scripts.
 
 ## Results collection and display
 
@@ -236,8 +242,6 @@ Projects in this category implement HMAC digest signing, which is required to us
 - [Veracode Notifier](https://github.com/ctcampbell/veracode-notifier) ([Ctcampbell](https://github.com/ctcampbell)) - Lambda function that sends a message to a web hook, for instance for use with Slack
 
 - [VeraHooks Mitigation Webhooks](https://github.com/sebcoles/VeraHooks) ([Seb Coles](https://github.com/sebcoles)) - React .NET Core solution for creating custom webhooks that watch application profiles and trigger when mitigations meet specified conditions.
-
-- [Veracode Dynamic Analysis Examples](https://github.com/anon-veracoder/veracode-dynamic-analysis-api-examples) ([anon-veracoder](https://github.com/anon-veracoder)) - Dynamic Analysis API Examples.  Currently includes example code for using the Scanner Variables feature, where credentials can be defined and updated at the account level, and referenced in Selenium login scripts.
 
 ## Secure coding examples
 
