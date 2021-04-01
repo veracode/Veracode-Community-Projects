@@ -145,8 +145,6 @@ These projects are community contributed and not supported by Veracode. For a li
 
 - [Pipeline2DetailedReport](https://github.com/jphillips-vc/pipeline2detailedreport) ([JPhillips-vc](https://github.com/jphillips-vc/)) - translate Veracode Pipeline Scan results into DetailedReport XML format, allowing you to import them into an IDE plugin for remediation.
 
-- [Pipeline-To-Issues](https://github.com/buzzcode/pipeline-to-issues) ([Buzzcode](https://github.com/buzzcode/)) - Import Veracode Pipeline scan results to GitHub issues.
-
 - [veracode-pipeline-PR-comment](https://github.com/Lerer/veracode-pipeline-PR-comment) ([Lerer](https://github.com/Lerer/veracode-pipeline-PR-comment)) - Sends output of Pipeline Scan to a comment on a pull request.
 
 ## Dynamic Analysis projects
@@ -184,6 +182,8 @@ These projects are community contributed and not supported by Veracode. For a li
 - [veracode-to-csv](https://github.com/ctcampbell/veracode-to-csv) ([Ctcampbell](https://github.com/ctcampbell)) - This script outputs one CSV file per scan per application profile visible in a Veracode platform account. The output can be imported into  Splunk for further analysis.
 
 - [VCCLI](https://github.com/michaelhorty/VCCLI) ([Michaelhorty](https://github.com/michaelhorty)) - Veracode AST and Security Labs utility in .NET Core.
+
+- [Flaws to GitHub Issues](https://github.com/buzzcode/veracode-flaws-to-issues) ([Buzzcode](https://github.com/buzzcode/)) - Import Veracode Pipeline and Policy/Sandbox scan results to GitHub issues.
 
 ## Application vulnerability correlation
 
