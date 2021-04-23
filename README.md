@@ -59,6 +59,8 @@ These projects are community contributed and not supported by Veracode. For a li
 
 - [Veracode Workspace Auto Create](https://github.com/tjarrettveracode/veracode-workspace-auto-create) ([Tjarrettveracode](https://github.com/tjarrettveracode/)) - Uses the Veracode Agent Based Scan API and other Veracode REST APIs to automatically create a workspace for application profiles in a Veracode organization.
 
+- [Veracode Delete Sandboxes via Threshold](https://github.com/julz0815/VeracodeDeleteSandboxes) ([Julz0815](https://github.com/julz0815/)) - Java Script that will automatically delete Sandboxes from a profile via a configured threshold and the number of Sandboxes to be deleted.
+
 ## Developer tools
 
 ### CI/CD
