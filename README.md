@@ -59,6 +59,8 @@ These projects are community contributed and not supported by Veracode. For a li
 
 - [Veracode Workspace Auto Create](https://github.com/tjarrettveracode/veracode-workspace-auto-create) ([Tjarrettveracode](https://github.com/tjarrettveracode/)) - Uses the Veracode Agent Based Scan API and other Veracode REST APIs to automatically create a workspace for application profiles in a Veracode organization.
 
+- [Veracode Delete Sandboxes via Threshold](https://github.com/julz0815/VeracodeDeleteSandboxes) ([Julz0815](https://github.com/julz0815/)) - Java Script that will automatically delete Sandboxes from a profile via a configured threshold and the number of Sandboxes to be deleted.
+
 ## Developer tools
 
 ### CI/CD
@@ -147,8 +149,6 @@ These projects are community contributed and not supported by Veracode. For a li
 
 - [Pipeline2DetailedReport](https://github.com/jphillips-vc/pipeline2detailedreport) ([JPhillips-vc](https://github.com/jphillips-vc/)) - translate Veracode Pipeline Scan results into DetailedReport XML format, allowing you to import them into an IDE plugin for remediation.
 
-- [Pipeline-To-Issues](https://github.com/buzzcode/pipeline-to-issues) ([Buzzcode](https://github.com/buzzcode/)) - Import Veracode Pipeline scan results to GitHub issues.
-
 - [veracode-pipeline-PR-comment](https://github.com/Lerer/veracode-pipeline-PR-comment) ([Lerer](https://github.com/Lerer/veracode-pipeline-PR-comment)) - Sends output of Pipeline Scan to a comment on a pull request.
 
 ## Dynamic Analysis projects
@@ -181,11 +181,15 @@ These projects are community contributed and not supported by Veracode. For a li
 
 - [Veracode Report Converter - Portable (CSV)](https://github.com/dipsylala/VeracodeReportConverter-Portable) ([Dipsylala](https://github.com/dipsylala/)) - .NET Core utility to extract useful data from Detailed Report XML file into CSV format
 
-- [Veracode - Gitlab SCA results report generation](https://gitlab.com/julz0815/scaresultsreport) ([julz0815](https://gitlab.com/julz0815/)) - Rewrites Veracode's Agent Based SCA json results in Gitlab readable report format in order to display results as dependency scanning on the pipeline run
+- [Veracode - Gitlab SCA results report and issue generation](https://gitlab.com/julz0815/scaresultsreport) ([julz0815](https://gitlab.com/julz0815/)) - Rewrites Veracode's Agent Based SCA json results in Gitlab readable report format in order to display results as dependency scanning on the pipeline run
+
+- [Veracode - Gitlab static results report and issue generation](https://gitlab.com/julz0815/veracodesastresultsimport) ([julz0815](https://gitlab.com/julz0815/)) - A little Java Script will download json results from a Veracode policy or sandbox scan into Gitlab readable report format in order display results as SAST results on the pipeline run and create Gitlab issues on the findings
 
 - [veracode-to-csv](https://github.com/ctcampbell/veracode-to-csv) ([Ctcampbell](https://github.com/ctcampbell)) - This script outputs one CSV file per scan per application profile visible in a Veracode platform account. The output can be imported into  Splunk for further analysis.
 
 - [VCCLI](https://github.com/michaelhorty/VCCLI) ([Michaelhorty](https://github.com/michaelhorty)) - Veracode AST and Security Labs utility in .NET Core.
+
+- [Flaws to GitHub Issues](https://github.com/buzzcode/veracode-flaws-to-issues) ([Buzzcode](https://github.com/buzzcode/)) - Import Veracode Pipeline and Policy/Sandbox scan results to GitHub issues.
 
 ## Application vulnerability correlation
 
