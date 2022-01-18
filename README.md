@@ -12,6 +12,7 @@ These projects are community contributed and not supported by Veracode. For a li
 - [Developer tools](#developer-tools)
   - [CI/CD](#cicd)
     - [Azure DevOps](#azure-devops)
+    - [GitHub](#github)
   - [Build tools](#build-tools)
   - [IDEs](#ides)
   - [API testing tools](#api-testing-tools)
@@ -120,6 +121,13 @@ These projects are community contributed and not supported by Veracode. For a li
 
 - [SCA Findings to Work Items](https://github.com/cadonuno/SCAFindingsToWorkItems) ([Cadonuno](https://github.com/cadonuno/)) - Saves new Veracode SCA findings as Azure DevOps Work Items.
 
+#### GitHub
+
+- [Veracode Application Sandboxes Helper](https://github.com/marketplace/actions/veracode-application-sandboxes-helper) ([Lerer](https://github.com/Lerer/)) - An Action to handle Sandboxes mainly as a set of clean-up activities such as: deleting a sandbox and promoting Sandbox scan to Policy Scan with or without deleting the sandbox
+
+- [Veracode Software Composition Analysis](https://github.com/marketplace/actions/veracode-software-composition-analysis) ([Lerer](https://github.com/Lerer/)) - Veracode Software Composition Analysis Scaning as a GitHub Action with the following actions: Run the Veracode SCA similar to a script in textual output mode, automatically create issues from Vulnerabilities based on given CVSS threshold, fail The action step based on given CVSS threshold and more
+
+
 ### Build tools
 
 - [Gradle](https://github.com/calgaryscientific/veracode-gradle-plugin) ([CalgaryScientific](https://github.com/calgaryscientific), based on [Kctang](https://github.com/kctang/)) - Set of Gradle tasks, usable either as a command line submission tool or integrated as part of a continuous integration build process, to perform Veracode submission for applications and scan results for flaws.
@@ -133,6 +141,11 @@ These projects are community contributed and not supported by Veracode. For a li
 - [vsccode-veracode-sca](https://github.com/Lerer/vscode-veracode-sca) ([Lerer](https://github.com/Lerer/)) - A very simple plugin for Veracode SCA to get agent-base SCA results into VSCode IDE.
 
 - [unofficial-vs-code-veracode-pipeline-scan](https://github.com/ctcampbell/unofficial-vs-code-veracode-pipeline-scan) ([Ctcampbell](https://github.com/ctcampbell/)) - Scan an app with Veracode Pipeline Scan, and load results from a Veracode Pipeline Scan.
+  - [Link to the plugin in VSCode marketplace](https://marketplace.visualstudio.com/items?itemName=ctcampbell-com.unofficial-vs-code-veracode)  
+
+- [Veracode Unified Plugin - Unofficial Version](https://github.com/Lerer/VSCode-Veracode-Unified) ([Lerer](https://github.com/Lerer/)) - VSCode plugin which integrate with the Veracode platform and enables downloading of scan results (findings) for both Static and SCA (Upload-and-Scan), run pipeline scan, and submit mitigations
+  - [Link to the plugin in VSCode marketplace](https://marketplace.visualstudio.com/items?itemName=YaakovLerer.veracode)
+
 
 ### API testing tools
 
