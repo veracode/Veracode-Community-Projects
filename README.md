@@ -75,8 +75,6 @@ These projects are community contributed and not supported by Veracode. For a li
 
 - [Bash/CircleCI](https://github.com/unregistered436/veracode-integrations/tree/master/shell-script) ([Unregistered436](https://github.com/unregistered436)) - Veracode Upload and Scan Bash Script, originally written for CircleCI but can be used for any build system that can run a shell script in bash.
 
-- [Bitbucket](https://bitbucket.org/JaySudama/verademo/src/master/) ([JaySudama](https://bitbucket.org/JaySudama/)) - Example Java project with a [bitbucket-pipelines.yml](https://bitbucket.org/JaySudama/verademo/src/master/bitbucket-pipelines.yml) file showing how to use Veracode Static Analysis (policy and pipeline scans) and Veracode Software Composition Analysis (SCA Agent) in Bitbucket.
-
 - [Bitrise-step-veracode-scan](https://github.com/psoladoye-geotab/bitrise-step-veracode-scan) ([Psoladoye-geotab](https://github.com/psoladoye-geotab/)) - add Veracode scanning to Bitrise CI.
 
 - [CircleCI](https://github.com/ctcircleci/Verademo/blob/master/.circleci/config.yml) ([ctcircleci](https://github.com/ctcircleci)) - Example configurations for building a project with Maven, then executing policy scan, agent-based SCA, and pipeline scan in a CircleCI pipeline.
