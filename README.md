@@ -12,6 +12,7 @@ These projects are community contributed and not supported by Veracode. For a li
 - [Developer tools](#developer-tools)
   - [CI/CD](#cicd)
     - [Azure DevOps](#azure-devops)
+    - [GitHub](#github)
   - [Build tools](#build-tools)
   - [IDEs](#ides)
   - [API testing tools](#api-testing-tools)
@@ -69,8 +70,6 @@ These projects are community contributed and not supported by Veracode. For a li
 
 - [Bash/CircleCI](https://github.com/unregistered436/veracode-integrations/tree/master/shell-script) ([Unregistered436](https://github.com/unregistered436)) - Veracode Upload and Scan Bash Script, originally written for CircleCI but can be used for any build system that can run a shell script in bash.
 
-- [Bitbucket](https://bitbucket.org/JaySudama/verademo/src/master/) ([JaySudama](https://bitbucket.org/JaySudama/)) - Example Java project with a [bitbucket-pipelines.yml](https://bitbucket.org/JaySudama/verademo/src/master/bitbucket-pipelines.yml) file showing how to use Veracode Static Analysis (policy and pipeline scans) and Veracode Software Composition Analysis (SCA Agent) in Bitbucket.
-
 - [Bitrise-step-veracode-scan](https://github.com/psoladoye-geotab/bitrise-step-veracode-scan) ([Psoladoye-geotab](https://github.com/psoladoye-geotab/)) - add Veracode scanning to Bitrise CI.
 
 - [CircleCI](https://github.com/ctcircleci/Verademo/blob/master/.circleci/config.yml) ([ctcircleci](https://github.com/ctcircleci)) - Example configurations for building a project with Maven, then executing policy scan, agent-based SCA, and pipeline scan in a CircleCI pipeline.
@@ -97,6 +96,8 @@ These projects are community contributed and not supported by Veracode. For a li
 
 - [veracode-serverless-webhooks](https://github.com/Lerer/serverless-veracode-webhooks) ([Lerer](https://github.com/Lerer)) - enables Veracode customers who want to use the Veracode Upload-and-Scan Static and SCA (not the Pipeline or the IDE scans) and get updates back in an asynchronous manner.
 
+- [Verademo](https://github.com/christyson/verademo) ([christyson](https://github.com/christyson)) - custom fork of Verademo, featuring sample pipeline configurations for Bitbucket, Jenkins and Azure Pipelines.
+
 - [XebiaLabs Release Veracode Plugin](https://github.com/xebialabs-community/xlr-veracode-plugin) ([XebiaLabs-Community](https://github.com/xebialabs-community)) - XL Release for Veracode test automation.  
 
 - [veracode-yml-sample-pipelines](https://github.com/victor-secops/Veracode-yml-sample-pipelines) ([Victor-secops](https://github.com/victor-secops/)) - example YML files for Azure DevOps, Jenkins, GitLab, CircleCI. Pipelines include Veracode SCA Agent scans, Veracode Static Analysis policy and pipeline scans.
@@ -115,6 +116,13 @@ These projects are community contributed and not supported by Veracode. For a li
 
 - [SCA Findings to Work Items](https://github.com/cadonuno/SCAFindingsToWorkItems) ([Cadonuno](https://github.com/cadonuno/)) - Saves new Veracode SCA findings as Azure DevOps Work Items.
 
+#### GitHub
+
+- [Veracode Application Sandboxes Helper](https://github.com/marketplace/actions/veracode-application-sandboxes-helper) ([Lerer](https://github.com/Lerer/)) - An Action to handle Sandboxes mainly as a set of clean-up activities such as: deleting a sandbox and promoting Sandbox scan to Policy Scan with or without deleting the sandbox
+
+- [Veracode Software Composition Analysis](https://github.com/marketplace/actions/veracode-software-composition-analysis) ([Lerer](https://github.com/Lerer/)) - Veracode Software Composition Analysis Scaning as a GitHub Action with the following actions: Run the Veracode SCA similar to a script in textual output mode, automatically create issues from Vulnerabilities based on given CVSS threshold, fail The action step based on given CVSS threshold and more
+
+
 ### Build tools
 
 - [Gradle](https://github.com/calgaryscientific/veracode-gradle-plugin) ([CalgaryScientific](https://github.com/calgaryscientific), based on [Kctang](https://github.com/kctang/)) - Set of Gradle tasks, usable either as a command line submission tool or integrated as part of a continuous integration build process, to perform Veracode submission for applications and scan results for flaws.
@@ -128,6 +136,13 @@ These projects are community contributed and not supported by Veracode. For a li
 - [vsccode-veracode-sca](https://github.com/Lerer/vscode-veracode-sca) ([Lerer](https://github.com/Lerer/)) - A very simple plugin for Veracode SCA to get agent-base SCA results into VSCode IDE.
 
 - [unofficial-vs-code-veracode-pipeline-scan](https://github.com/ctcampbell/unofficial-vs-code-veracode-pipeline-scan) ([Ctcampbell](https://github.com/ctcampbell/)) - Scan an app with Veracode Pipeline Scan, and load results from a Veracode Pipeline Scan.
+  - [Link to the plugin in VSCode marketplace](https://marketplace.visualstudio.com/items?itemName=ctcampbell-com.unofficial-vs-code-veracode)  
+
+- [Veracode Unified Plugin - Unofficial Version](https://github.com/Lerer/VSCode-Veracode-Unified) ([Lerer](https://github.com/Lerer/)) - VSCode plugin which integrate with the Veracode platform and enables downloading of scan results (findings) for both Static and SCA (Upload-and-Scan), run pipeline scan, and submit mitigations
+  - [Link to the plugin in VSCode marketplace](https://marketplace.visualstudio.com/items?itemName=YaakovLerer.veracode)
+
+- [Jetbrains family plugin](https://github.com/geraldtancl/veracode.plugin) ([GeraldTanCL](https://github.com/geraldtancl)) - Compliments Veracode's official IntelliJ IDE integration with support for other Jetbrains IDE products. It enables you to download the SAST result from Veracode Platform into your Jetbrains IDE.
+
 
 ### API testing tools
 
