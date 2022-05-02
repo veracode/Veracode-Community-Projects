@@ -122,7 +122,6 @@ These projects are community contributed and not supported by Veracode. For a li
 
 - [Veracode Software Composition Analysis](https://github.com/marketplace/actions/veracode-software-composition-analysis) ([Lerer](https://github.com/Lerer/)) - Veracode Software Composition Analysis Scaning as a GitHub Action with the following actions: Run the Veracode SCA similar to a script in textual output mode, automatically create issues from Vulnerabilities based on given CVSS threshold, fail The action step based on given CVSS threshold and more
 
-
 ### Build tools
 
 - [Gradle](https://github.com/calgaryscientific/veracode-gradle-plugin) ([CalgaryScientific](https://github.com/calgaryscientific), based on [Kctang](https://github.com/kctang/)) - Set of Gradle tasks, usable either as a command line submission tool or integrated as part of a continuous integration build process, to perform Veracode submission for applications and scan results for flaws.
@@ -143,12 +142,11 @@ These projects are community contributed and not supported by Veracode. For a li
 
 - [Jetbrains family plugin](https://github.com/geraldtancl/veracode.plugin) ([GeraldTanCL](https://github.com/geraldtancl)) - Compliments Veracode's official IntelliJ IDE integration with support for other Jetbrains IDE products. It enables you to download the SAST result from Veracode Platform into your Jetbrains IDE.
 
-
 ### API testing tools
 
 - [Insomnia](https://github.com/ctcampbell/insomnia-plugin-veracode-hmac) ([Ctcampbell](https://github.com/ctcampbell/)) - Adds an HMAC authentication header to Veracode API requests in Insomnia.
 
-- [Postman pre-request authentication header](https://gist.github.com/ctcampbell/c82d895b0940c08408fb1800aa6718b0) ([Ctcampbell](https://github.com/ctcampbell/)) - Postman pre-request to add Veracode HMAC header.
+- [Veracode-Postman](https://github.com/veracode/veracode-postman) ([Veracode](https://github.com/veracode/)) - Pre-request authentication script and instructions for accessing Veracode APIs from Postman.
 
 ### Other
 
