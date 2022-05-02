@@ -262,8 +262,6 @@ Projects in this category implement HMAC digest signing, which is required to us
 
 - [veracode-api-clients](https://github.com/jourzero/veracode-api-clients) ([Jourzero](https://github.com/jourzero/)) - Client code using the Veracode REST and XML APIs. Includes handlers for Veracode Dynamic Analysis scanning.
 
-- [veracode-python](https://github.com/chuckorde/veracode-python) ([Chuckorde](https://github.com/chuckorde/)) - A python wrapper for communicating with the Veracode APIs.
-
 - [veracode-api-py](https://github.com/tjarrettveracode/veracode-api-py) ([Tjarrettveracode](https://github.com/tjarrettveracode)) - Python helper library for working with the Veracode APIs. Handles retries, pagination, and other features of the modern Veracode REST APIs.
 
 ## Other integrations
