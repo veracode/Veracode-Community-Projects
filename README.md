@@ -78,8 +78,6 @@ These projects are community contributed and not supported by Veracode. For a li
 
 - [ConcourseCI, Gitlab, Travis](https://github.com/ctcampbell/veracode-ci-examples) ([Ctcampbell](https://github.com/ctcampbell)) - Example configurations for integrating Veracode scanning in various continuous integration systems.
 
-- [Concourse (Veracode-Resource)](https://github.com/cardinal-health/veracode-resource) ([Cardinal Health](https://github.com/cardinal-health)) - A concourse resource-type to allow publishing and retrieving scan results from Veracode.
-
 - [easy_sast](https://github.com/seisollc/easy_sast) - A [docker container](https://hub.docker.com/r/seiso/easy_sast) for use in CI pipelines which integrates with Veracode's static analysis tool.
 
 - [Jenkins (Jenkins Shell)](https://github.com/ian-c-leonard/veracode_jenkins_shell) ([Ian C Leonard](https://github.com/ian-c-leonard)) - unofficial Veracode shell integration for Jenkins Freestyle projects.
@@ -89,8 +87,6 @@ These projects are community contributed and not supported by Veracode. For a li
 - [veracode-badges](https://github.com/Lerer/veracode-badge) ([Lerer](https://github.com/Lerer/)) - produces badges for READMEs and other artifact repositories showing the status of Veracode policy scans.
 
 - [Veracode Community SAST Azure DevOps Extension](https://github.com/MetLife/VeracodeCommunitySAST) ([MetLife](https://github.com/MetLife/)) - Seamlessly integrate Veracode SAST scans with Azure DevOps build pipelines (using Pipeline Scan).
-
-- [Veracode Flaw Importer](https://github.com/julz0815/veracode_flaw_importer) ([Julz0815](https://github.com/julz0815/)) - GitHub Action to import static policy findings to GitHub Security Code Scanning Alerts.
 
 - [veracode-scripts](https://gitlab.com/aszaryk/veracode-scripts) - Various example scripts for Jenkins and GitLab pipelines, including both static and dynamic examples.
 
@@ -119,8 +115,6 @@ These projects are community contributed and not supported by Veracode. For a li
 #### GitHub
 
 - [Veracode Application Sandboxes Helper](https://github.com/marketplace/actions/veracode-application-sandboxes-helper) ([Lerer](https://github.com/Lerer/)) - An Action to handle Sandboxes mainly as a set of clean-up activities such as: deleting a sandbox and promoting Sandbox scan to Policy Scan with or without deleting the sandbox
-
-- [Veracode Software Composition Analysis](https://github.com/marketplace/actions/veracode-software-composition-analysis) ([Lerer](https://github.com/Lerer/)) - Veracode Software Composition Analysis Scaning as a GitHub Action with the following actions: Run the Veracode SCA similar to a script in textual output mode, automatically create issues from Vulnerabilities based on given CVSS threshold, fail The action step based on given CVSS threshold and more
 
 ### Build tools
 
@@ -188,8 +182,6 @@ These projects are community contributed and not supported by Veracode. For a li
 
 - [Hygieia](https://github.com/mickfeech/hygieia_veracode_collector) ([Mickfeech](https://github.com/mickfeech/)) - Veracode scan collector and parser for the [Hygieia dashboard](https://github.com/Hygieia/ExecDashboard).
 
-- [JupiterOne](https://github.com/JupiterOne/jupiter-integration-veracode) ([JupiterOne](https://github.com/JupiterOne/)) - A JupiterOne managed integration for Veracode.
-
 - [JupiterOne Graph Veracode](https://github.com/JupiterOne/graph-veracode) ([JupiterOne](https://github.com/JupiterOne/)) - A graph conversion tool for Veracode.
 
 - [SCA Extractor](https://github.com/brian1917/vcodeSCAExtractor) ([Brian1917](https://github.com/brian1917)) - Creates a CSV file with open source vulnerability (SCA) findings for all builds in the input file.
@@ -211,8 +203,6 @@ These projects are community contributed and not supported by Veracode. For a li
 - [veracode-to-csv](https://github.com/ctcampbell/veracode-to-csv) ([Ctcampbell](https://github.com/ctcampbell)) - This script outputs one CSV file per scan per application profile visible in a Veracode platform account. The output can be imported into  Splunk for further analysis.
 
 - [VCCLI](https://github.com/michaelhorty/VCCLI) ([Michaelhorty](https://github.com/michaelhorty)) - Veracode AST and Security Labs utility in .NET Core.
-
-- [Flaws to GitHub Issues](https://github.com/buzzcode/veracode-flaws-to-issues) ([Buzzcode](https://github.com/buzzcode/)) - Import Veracode Pipeline and Policy/Sandbox scan results to GitHub issues.
 
 ## User provisioning, management and deprovisioning
 
