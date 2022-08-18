@@ -62,6 +62,10 @@ These projects are community contributed and not supported by Veracode. For a li
 
 ## Developer tools
 
+### Auto Packagers (for SAST)
+
+- [Node.js Auto Packager](https://github.com/fw10/veracode-node-packager) ([fw10](https://github.com/fw10/)) - CLI tool to automatically package a `Node.js` application for Veracode Static Analysis
+
 ### CI/CD
 
 - [Bamboo](https://gitlab.com/buzzcode/Bamboo-Veracode) ([Buzzcode](https://gitlab.com/buzzcode/)) - full featured Bamboo plugin including configuration UI, wait for scan to complete, and "break the build" functionality
