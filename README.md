@@ -214,7 +214,9 @@ These projects are community contributed and not supported by Veracode. For a li
 
 - [Azure AD SAML SSO - Autocreating teams](https://dev.azure.com/jtotzek/_git/AD-Veracode-Teams) ([Jtotzek](https://dev.azure.com/jtotzek/)) - Code and documentation on configuring Azure Active Directory to automatically create teams as part of the just-in-time provisioning workflow via SAML.
 
-- [Veracode API Credentials Expiry](https://github.com/christyson/veracode-python-api_credentials_expiry-example) ([Christyson](https://github.com/christyson/veracode-python-api_credentials_expiry-example)) - A simple example to get the exiration dates of api credentials for your users.
+- [Veracode API Credentials Expiry](https://github.com/christyson/veracode-python-api_credentials_expiry-example) ([Christyson](https://github.com/christyson)) - A simple example to get the exiration dates of api credentials for your users.
+
+- [Veracode Get User List](https://github.com/christyson/veracode_get_user_list) ([Christyson](https://github.com/christyson/)) - Get a list of users with their attributes.
 
 - [Veracode Offboard](https://github.com/tjarrettveracode/veracode-offboard) ([Tjarrettveracode](https://github.com/tjarrettveracode)) - Deactivates a provided list of users on the Veracode Platform.
 
