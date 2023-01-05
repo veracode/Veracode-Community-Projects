@@ -210,6 +210,8 @@ These projects are community contributed and not supported by Veracode. For a li
 
 - [VCCLI](https://github.com/michaelhorty/VCCLI) ([Michaelhorty](https://github.com/michaelhorty)) - Veracode AST and Security Labs utility in .NET Core.
 
+- [Generate License Notice file](https://github.com/gmdavef/sca-scripts) ([Dave Ferguson](https://github.com/gmdavef)) - Python script that creates a License Notice file (sometimes called an Attribution Report) for an application that has been scanned by Veracode SCA. 
+
 ## User provisioning, management and deprovisioning
 
 - [Azure AD SAML SSO - Autocreating teams](https://dev.azure.com/jtotzek/_git/AD-Veracode-Teams) ([Jtotzek](https://dev.azure.com/jtotzek/)) - Code and documentation on configuring Azure Active Directory to automatically create teams as part of the just-in-time provisioning workflow via SAML.
