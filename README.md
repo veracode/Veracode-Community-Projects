@@ -10,6 +10,7 @@ These projects are community contributed and not supported by Veracode. For a li
 
 - [Automating common Veracode Platform tasks](#automating-common-veracode-platform-tasks)
 - [Developer tools](#developer-tools)
+  - [Auto Packagers (for SAST)](#auto-packagers-for-sast)
   - [CI/CD](#cicd)
     - [Azure DevOps](#azure-devops)
     - [GitHub](#github)
@@ -27,6 +28,7 @@ These projects are community contributed and not supported by Veracode. For a li
 - [Other integrations](#other-integrations)
 - [Secure coding examples](#secure-coding-examples)
 - [Insecure applications](#insecure-applications)
+- [Automating Security Labs tasks](#automating-security-labs-tasks)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -289,3 +291,7 @@ Projects in this category implement HMAC digest signing, which is required to us
 - [VeraDemo](https://github.com/jtsmith2020/verademo-java) ([Jtsmith2020](https://github.com/jtsmith2020/)) - Sample insecure application written in Java and Javascript, showing vulnerabilities in realistic Java code.
 
 - [NodeGoat](https://github.com/buzzcode/NodeGoat) ([Buzzcode](https://github.com/buzzcode/)) - NodeGoat, built w/CircleCI, showing how to use a yaml file to scan w/Veracode.
+
+## Automating Security Labs tasks
+
+- [Security Labs Scripts](https://github.com/gmdavef/security-labs-scripts) ([Dave Ferguson](https://github.com/gmdavef)) - Python scripts to automate various administrative tasks in Veracode Security Labs.
