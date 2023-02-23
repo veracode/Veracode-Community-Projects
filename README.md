@@ -66,7 +66,7 @@ These projects are community contributed and not supported by Veracode. For a li
 
 ### Auto Packagers (for SAST)
 
-- [Node.js Auto Packager](https://github.com/fw10/veracode-node-packager) ([fw10](https://github.com/fw10/)) - CLI tool to automatically package a `Node.js` application for Veracode Static Analysis
+- [JavaScript Auto Packager](https://github.com/fw10/veracode-javascript-packager) ([fw10](https://github.com/fw10/)) - CLI tool to automatically package a `JavaScript` application for Veracode Static Analysis
 
 ### CI/CD
 
