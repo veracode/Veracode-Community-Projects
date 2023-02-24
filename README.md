@@ -196,7 +196,9 @@ These projects are community contributed and not supported by Veracode. For a li
 
 - [SCA Extractor](https://github.com/brian1917/vcodeSCAExtractor) ([Brian1917](https://github.com/brian1917)) - Creates a CSV file with open source vulnerability (SCA) findings for all builds in the input file.
 
-- [Veracode Scan Compare](https://github.com/antfie/scan_compare) ([antfie](https://github.com/antfie)) - Use this tool to compare two Veracode Static Analysis (SAST) scans.
+- [Veracode Scan Compare](https://github.com/antfie/scan_compare) ([antfie](https://github.com/antfie)) - Use this tool to compare two Veracode Static Analysis (SAST) scans to understand why they are different.
+
+- [Veracode Scan Health](https://github.com/antfie/scan_health) ([antfie](https://github.com/antfie)) - Produces a SAST scan health report with guidance on changes to make in order to improve the packaging and module selection to achieve greater flaw accuracy.
 
 - [Stats](https://github.com/ctcampbell/veracode-stats) ([Ctcampbell](https://github.com/ctcampbell)) - Summary statistics for a Veracode account on the command line.
 
