@@ -121,7 +121,9 @@ These projects are community contributed and not supported by Veracode. For a li
 - [Azure DevOps Pipeline-Scan plugin](https://github.com/julz0815/ADO-Veracode-Pipeline-Scan-Plugin) ([Julz0815](https://github.com/julz0815/)) - This plugin should make it easier to run the Veracode pipeline scan on Azure DevOps pipelines. The full scan jar is included within the plugin and don't need to be downloaded each time when the pipeline runs. In addition it will populate an additional tab on your pipeline run to display results in a more convinient way. The plugin will automatically update itself every night if a new version of the piepline scan jar is published.  
 
 - [SCA Findings to Work Items](https://github.com/cadonuno/SCAFindingsToWorkItems) ([Cadonuno](https://github.com/cadonuno/)) - Saves new Veracode SCA findings as Azure DevOps Work Items.
-
+  
+- [Azue DevOps promote scan](https://github.com/dmedeiros-veracode/devops-scripts-azure-devops/blob/main/jobs/veracode-sast-platform-release-candidate-promote-job.yml)([dmedeiros-veracode](https://github.com/dmedeiros-veracode)) - This repository contains Azure DevOps scripts that can be referenced and used for integration with Veracode Analysis tools.  
+  
 #### GitHub
 
 - [Veracode Application Sandboxes Helper](https://github.com/marketplace/actions/veracode-application-sandboxes-helper) ([Lerer](https://github.com/Lerer/)) - An Action to handle Sandboxes mainly as a set of clean-up activities such as: deleting a sandbox and promoting Sandbox scan to Policy Scan with or without deleting the sandbox
