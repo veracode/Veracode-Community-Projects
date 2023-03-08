@@ -13,7 +13,7 @@ jobs:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
           source-directory: '.'
-          destination-github-username: 'julz0815'
+          destination-github-username: 'veracode'
           destination-repository-name: 'veracode.github.io'
           user-email: j.totzek@gmail.com
           target-branch: master
