@@ -10,7 +10,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
         with:
-          ref: testme
+          ref: master
           repository: veracode/veracode.github.io
           token: ${{ secrets.API_TOKEN_GITHUB }}
           path: tmp/veracode.github.io
