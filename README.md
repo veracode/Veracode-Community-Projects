@@ -109,6 +109,8 @@ These projects are community contributed and not supported by Veracode. For a li
 
 - [veracode-yml-sample-pipelines](https://github.com/victor-secops/Veracode-yml-sample-pipelines) ([Victor-secops](https://github.com/victor-secops/)) - example YML files for Azure DevOps, Jenkins, GitLab, CircleCI. Pipelines include Veracode SCA Agent scans, Veracode Static Analysis policy and pipeline scans.
 
+- [veracode-aws-documentation](https://github.com/ClintPollock/Veracode-AWS-Code-Suite-Getting-Started-Guide) ([Clintpollock](https://github.com/Clintpollock)) - How to setup an AWS CodeSuite with Veracode Static Analysis, Software Composition Analysis, and Dynamic Analysis.
+
 #### Azure DevOps
 
 - [Veracode Azure YML Samples](https://github.com/Clintpollock/VeracodeAzureYMLSamples/) ([Clintpollock](https://github.com/Clintpollock)) - Samples of Azure YML files that work with Veracode scanning
