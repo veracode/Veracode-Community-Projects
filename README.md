@@ -87,8 +87,6 @@ These projects are community contributed and not supported by Veracode. For a li
 
 - [CircleCI](https://github.com/buzzcode/NodeGoat/blob/master/.circleci/config.yml) ([buzzcode](https://github.com/buzzcode)) - Example configuration for zipping a project, then executing policy scan, agent-based SCA, and pipeline scan in a CircleCI pipeline.
 
-- [ConcourseCI, Gitlab, Travis](https://github.com/ctcampbell/veracode-ci-examples) ([Ctcampbell](https://github.com/ctcampbell)) - Example configurations for integrating Veracode scanning in various continuous integration systems.
-
 - [easy_sast](https://github.com/seisollc/easy_sast) - ([docker container](https://hub.docker.com/r/seiso/easy_sast)) - A docker container for use in CI pipelines which integrates with Veracode's static analysis tool.
 
 - [Jenkins (Jenkins Shell)](https://github.com/ian-c-leonard/veracode_jenkins_shell) ([Ian C Leonard](https://github.com/ian-c-leonard)) - unofficial Veracode shell integration for Jenkins Freestyle projects.
