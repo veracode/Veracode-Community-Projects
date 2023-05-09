@@ -117,6 +117,10 @@ These projects are community contributed and not supported by Veracode. For a li
 
 - [Veracode Dynamic Analysis Azure Sample](https://github.com/jphillips-vc/Veracode-Dynamic-Analysis-Azure-Example) ([Jphillips-vc](https://github.com/jphillips-vc/)) - Veracode Dynamic Analysis Azure Sample including script based authentication, and ISM configuration.
 
+- [Veracode Examples in Portuguese](https://github.com/M3Corp-Community/Veracode) - Various examples and documents about how to use and integrate Veracode in multiples scenarios (Azure DevOps, Jenkins, Github Actions, Linux, Windows...) in Portuguese.
+
+- [Veracode Flaw Importer](https://github.com/julz0815/veracode_flaw_importer) ([Julz0815](https://github.com/julz0815/)) - GitHub Action to import static policy findings to GitHub Security Code Scanning Alerts.
+
 - [Veracode for Azure DevOps Pipelines](https://github.com/zoekdestep/veracode-ado-pipelines) ([zoekdestep](https://github.com/zoekdestep/)) - Yaml files to get started with Veracode on Azure DevOps. Accompanies this [blog post](https://community.veracode.com/s/blog/user-story-how-we-set-up-veracode-in-a-large-azure-project-MCT4HNONEE55CIFA6O3ULXNUW2BI).
 
 - [Azure DevOps Pipeline-Scan plugin](https://github.com/julz0815/ADO-Veracode-Pipeline-Scan-Plugin) ([Julz0815](https://github.com/julz0815/)) - This plugin should make it easier to run the Veracode pipeline scan on Azure DevOps pipelines. The full scan jar is included within the plugin and don't need to be downloaded each time when the pipeline runs. In addition it will populate an additional tab on your pipeline run to display results in a more convinient way. The plugin will automatically update itself every night if a new version of the piepline scan jar is published.  
