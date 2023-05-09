@@ -1,0 +1,26 @@
+on:
+  push:
+    branches: [master]
+
+jobs:
+  push_to_web:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          ref: master
+          repository: veracode/veracode.github.io
+          token: ${{ secrets.API_TOKEN_GITHUB }}
+          path: tmp/veracode.github.io
+
+      - name: add file to remote repo
+        run: |
+          cp README.md tmp/veracode.github.io/readme.md
+          cd tmp/veracode.github.io
+          git config --global user.name 'Julian Totzel-Hallhuber'
+          git config --global user.email 'jtotzekhallhuber@veracode.com'
+          git commit -am "Update readme file"
+          git status
+          git push

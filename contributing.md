@@ -2,12 +2,12 @@
 
 Please follow the instructions below to make a contribution.
 
-This resource is not intended to be comprehensive, but we welcome contributions and corrections. [contributors](#contributors).
+This resource is not intended to be comprehensive, but we welcome contributions and corrections. 
 
 ## Table of Content
 
 - [Adding to the list](#adding-to-the-list)
-- [To remove from the list](#to-remove-from-the-list)
+- [To remove from the list](#removing-from-the-list)
 - [Contributors](#contributors)
 
 ## Adding to the List
@@ -18,12 +18,13 @@ This resource is not intended to be comprehensive, but we welcome contributions 
 
 ## Removing from the List
 
-- If you have any issues accessing any of the resources listed here, please let us know.
+- Please let us know if you have a problem accessing any of the resources listed here or believe that a resource should be removed from the list.
 
 ## Contributors
 
 - [Tim Jarrett](https://github.com/tjarrettveracode)
 - [Buzzcode](https://github.com/buzzcode)
-- [Sebcoles](https//github.com/sebcoles)
+- [Sebcoles](https://github.com/sebcoles)
 - [Antfie](https://github.com/antfie)
-- [JonZeolla-Seiso](https://github.com/JonZeolla-Seiso)
+- [JonZeolla](https://github.com/JonZeolla)
+- [Dave Ferguson](https://github.com/gmdavef)
