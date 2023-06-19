@@ -305,7 +305,7 @@ These projects are community contributed and not supported by Veracode. For a li
 
 - [VeraDemo](https://github.com/jtsmith2020/verademo-java) ([Jtsmith2020](https://github.com/jtsmith2020/)) - Sample insecure application written in Java and Javascript, showing vulnerabilities in realistic Java code.
 
-- [VeraDemoAPI]([https://github.com/jtsmith2020/verademo-java](https://github.com/veracode/verademo-javascript-api)) ([Veracode](https://github.com/veracode)) - Sample insecure application written in Javascript, showing vulnerabilities in realistic Javascript code.  
+- [VeraDemoAPI](https://github.com/veracode/verademo-javascript-api) ([Veracode](https://github.com/veracode)) - Sample insecure application written in Javascript, showing vulnerabilities in realistic Javascript code.  
 
 - [NodeGoat](https://github.com/buzzcode/NodeGoat) ([Buzzcode](https://github.com/buzzcode/)) - NodeGoat, built w/CircleCI, showing how to use a yaml file to scan w/Veracode.
 
