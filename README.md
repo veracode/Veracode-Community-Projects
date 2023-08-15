@@ -69,7 +69,7 @@ These projects are community contributed and not supported by Veracode. For a li
 
 ### Auto Packagers (for SAST)
 
-- [JavaScript Auto Packager](https://github.com/fw10/veracode-javascript-packager) ([fw10](https://github.com/fw10/)) - CLI tool to automatically package a `JavaScript` application for Veracode Static Analysis
+- [JavaScript Auto Packager](https://github.com/dub-flow/veracode-javascript-packager) ([dub-flow](https://github.com/dub-flow/)) - CLI tool to automatically package a `JavaScript` application for Veracode Static Analysis
 
 - [Go Auto Packager](https://github.com/relaxnow/vcgopkg) ([relaxnow](https://github.com/relaxnow)) - CLI tool to automatically package a `Golang` application for Veracode Static Analysis
 
