@@ -2,7 +2,6 @@
 
 A collection of useful open source projects that integrate with the Veracode APIs to automate scanning, results retrieval and other tasks.
 
-
 These projects are community contributed and not supported by Veracode. For a list of supported projects, please see the listing of projects on [Veracode.com](https://www.veracode.com/integrations).
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
@@ -67,7 +66,7 @@ These projects are community contributed and not supported by Veracode. For a li
 
 ### Auto Packagers (for SAST)
 
-- [JavaScript Auto Packager](https://github.com/fw10/veracode-javascript-packager) ([fw10](https://github.com/fw10/)) - CLI tool to automatically package a `JavaScript` application for Veracode Static Analysis
+- [JavaScript Auto Packager](https://github.com/dub-flow/veracode-javascript-packager) ([dub-flow](https://github.com/dub-flow/)) - CLI tool to automatically package a `JavaScript` application for Veracode Static Analysis
 
 - [Go Auto Packager](https://github.com/relaxnow/vcgopkg) ([relaxnow](https://github.com/relaxnow)) - CLI tool to automatically package a `Golang` application for Veracode Static Analysis
 
@@ -229,6 +228,8 @@ These projects are community contributed and not supported by Veracode. For a li
 
 - [VCCLI](https://github.com/michaelhorty/VCCLI) ([Michaelhorty](https://github.com/michaelhorty)) - Veracode AST and Security Labs utility in .NET Core.
 
+- [Veracode Container Security Display (Unofficial)](https://relaxnow.github.io/vcsd/) ([relaxnow](https://github.com/relaxnow)) - Display, sort and filter Container Security JSON results.
+
 ## User provisioning, management and deprovisioning
 
 - [Azure AD SAML SSO Autocreating teams](https://dev.azure.com/jtotzek/_git/AD-Veracode-Teams) ([Jtotzek](https://dev.azure.com/jtotzek/)) - Code and documentation on configuring Azure Active Directory to automatically create teams as part of the just-in-time provisioning workflow via SAML.
@@ -306,7 +307,13 @@ These projects are community contributed and not supported by Veracode. For a li
 ## Insecure applications
 
 - [VeraDemo](https://github.com/jtsmith2020/verademo-java) ([Jtsmith2020](https://github.com/jtsmith2020/)) - Sample insecure application written in Java and Javascript, showing vulnerabilities in realistic Java code.
-
+  
+- [VeraDemoAPI](https://github.com/veracode/verademo-javascript-api) ([Veracode](https://github.com/veracode)) - Sample insecure application written in Javascript, showing vulnerabilities in realistic Javascript code.
+  
+- [VeraDemoJava](https://github.com/veracode/verademo-java-web) ([Veracode](https://github.com/veracode)) - Sample insecure application written in Java, showing vulnerabilities in realistic Java code.
+  
+- [VeraDemoDocker](https://github.com/veracode/verademo-app-docker) ([Veracode](https://github.com/veracode)) - Bringing the 2 demo apps above VeraDemoJave and VeraDemoAPI together and start them within a docker environment. You will get a Java Web Application, a JavaScript node express API. a MySQL database and a vulnerable container.  
+  
 - [NodeGoat](https://github.com/buzzcode/NodeGoat) ([Buzzcode](https://github.com/buzzcode/)) - NodeGoat, built w/CircleCI, showing how to use a yaml file to scan w/Veracode.
 
 ## Automating Security Labs tasks
