@@ -242,6 +242,10 @@ These projects are community contributed and not supported by Veracode. For a li
 
 - [Veracode User Bulk Role Assign](https://github.com/tjarrettveracode/veracode-user-bulk-role-assign) ([Tjarrettveracode](https://github.com/tjarrettveracode/)) - Uses the Veracode Identity API to add roles (Security Labs User, Greenlight IDE User, or eLearning) to existing users.
 
+- [Veracode UM Powershell Tool](https://github.com/IGDEXE/Veracode-UM-Tool) ([IGD753](https://github.com/IGDEXE)) - A completed User management tool write in Powershell using the Veracode APIs. You can use to create, block, delete and update users, in Windows, Linux or Mac terminal. This a simplified and translated version from the original in [Portuguese](https://github.com/IGDEXE/Veracode-UM).
+
+- [Veracode UM Powershell Tool in Portuguese](https://github.com/IGDEXE/Veracode-UM) ([IGD753](https://github.com/IGDEXE)) - A completed User management tool write in Powershell using the Veracode APIs. This version is completed in Portuguese, and you can use to create, block, delete and update users, in Windows, Linux or Mac terminal.
+
 ## Application vulnerability correlation
 
 - [DefectDojo](https://github.com/DefectDojo/django-DefectDojo) - DefectDojo is an open-source application vulnerability correlation and security orchestration application. DefectDojo supports importing Veracode results.
