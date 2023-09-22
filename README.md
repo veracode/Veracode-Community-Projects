@@ -72,37 +72,23 @@ These projects are community contributed and not supported by Veracode. For a li
 
 ### CI/CD
 
-- [AWS](https://github.com/M3Corp-Community/Veracode/tree/main/Pipelines/AWS) ([IGD753](https://github.com/IGDEXE)) - Examples for how to create pipelines: Basics (Wrapper only), Advanced (U&S + SCA + Pipeline Scan) and Experts (all tools parallelizing processes)
-
-- [Azure DevOps](https://github.com/M3Corp-Community/Veracode/tree/main/Pipelines/Az%20DevOps) ([IGD753](https://github.com/IGDEXE)) - Examples for how to create pipelines: Basics (Wrapper only), Advanced (U&S + SCA + Pipeline Scan) and Experts (all tools parallelizing processes)
-
 - [Bamboo](https://gitlab.com/buzzcode/Bamboo-Veracode) ([Buzzcode](https://gitlab.com/buzzcode/)) - full featured Bamboo plugin including configuration UI, wait for scan to complete, and "break the build" functionality
 
 - [Bamboo-Jira](https://github.com/buildcom/VeracodeAtlassianPlugin) ([Buildcom](https://github.com/buildcom/)) - provides a pair of simple plugins for upload and results handling from within Bamboo, and a lightweight script to create Jira issues (archived project)
 
 - [Bash-CircleCI](https://github.com/unregistered436/veracode-integrations/tree/master/shell-script) ([Unregistered436](https://github.com/unregistered436)) - Veracode Upload and Scan Bash Script, originally written for CircleCI but can be used for any build system that can run a shell script in bash.
 
-- [BitBucket](https://github.com/M3Corp-Community/Veracode/tree/main/Pipelines/BitBucket) ([IGD753](https://github.com/IGDEXE)) - Examples for how to create pipelines: Basics (Wrapper only), Advanced (U&S + SCA + Pipeline Scan) and Experts (all tools parallelizing processes)
-
 - [Bitrise-step-veracode-scan](https://github.com/psoladoye-geotab/bitrise-step-veracode-scan) ([Psoladoye-geotab](https://github.com/psoladoye-geotab/)) - add Veracode scanning to Bitrise CI.
-
-- [CircleCI](https://github.com/M3Corp-Community/Veracode/tree/main/Pipelines/CircleCI) ([IGD753](https://github.com/IGDEXE)) - Examples for how to create pipelines: Basics (Wrapper only), Advanced (U&S + SCA + Pipeline Scan) and Experts (all tools parallelizing processes)
 
 - [CircleCI](https://github.com/ctcircleci/Verademo/blob/master/.circleci/config.yml) ([ctcircleci](https://github.com/ctcircleci)) - Example configurations for building a project with Maven, then executing policy scan, agent-based SCA, and pipeline scan in a CircleCI pipeline.
 
 - [CircleCI](https://github.com/buzzcode/NodeGoat/blob/master/.circleci/config.yml) ([buzzcode](https://github.com/buzzcode)) - Example configuration for zipping a project, then executing policy scan, agent-based SCA, and pipeline scan in a CircleCI pipeline.
 
 - [easy_sast](https://github.com/seisollc/easy_sast) - ([docker container](https://hub.docker.com/r/seiso/easy_sast)) - A docker container for use in CI pipelines which integrates with Veracode's static analysis tool.
-
-- [GitHub Actions](https://github.com/M3Corp-Community/Veracode/tree/main/Pipelines/GitHub%20Actions) ([IGD753](https://github.com/IGDEXE)) - Examples for how to create pipelines: Basics (Wrapper only), Advanced (U&S + SCA + Pipeline Scan) and Experts (all tools parallelizing processes)
-
-- [GitLab](https://github.com/M3Corp-Community/Veracode/tree/main/Pipelines/GitLab) ([IGD753](https://github.com/IGDEXE)) - Examples for how to create pipelines: Basics (Wrapper only), Advanced (U&S + SCA + Pipeline Scan) and Experts (all tools parallelizing processes)
-
-- [Jenkins](https://github.com/M3Corp-Community/Veracode/tree/main/Pipelines/Jenkins) ([IGD753](https://github.com/IGDEXE)) - Examples for how to create pipelines: Basics (Wrapper only), Advanced (U&S + SCA + Pipeline Scan) and Experts (all tools parallelizing processes)
+   
+- [Exemplos Veracode](https://github.com/M3Corp-Community/Veracode/tree/main) ([Ivo Dias](https://github.com/IGDEXE)) - In this repository you will find several examples for Veracode implementations created by the [M3Corp](https://github.com/M3Corp-Community) team. In the [Pipelines](https://github.com/M3Corp-Community/Veracode/tree/main/Pipelines) folder you can find how to implement in the most diverse CI/CD tools, such as [Azure](https://github.com/M3Corp-Community/Veracode/tree/main/Pipelines/Az%20DevOps), [GitLab](https://github.com/M3Corp-Community/Veracode/tree/main/Pipelines/GitLab), [GitHub Actions](https://github.com/M3Corp-Community/Veracode/tree/main/Pipelines/GitHub%20Actions) and [Jenkins](https://github.com/M3Corp-Community/Veracode/tree/main/Pipelines/Jenkins). Other implementation examples such as running in a [terminal](https://github.com/M3Corp-Community/Veracode/tree/main/SOs) and [translating the results](https://github.com/M3Corp-Community/Veracode/tree/main/FreeStyle) are also available. We normally publish in Portuguese, but the examples are completely understandable in other languages
 
 - [Jenkins (Jenkins Shell)](https://github.com/ian-c-leonard/veracode_jenkins_shell) ([Ian C Leonard](https://github.com/ian-c-leonard)) - unofficial Veracode shell integration for Jenkins Freestyle projects.
-
-- [TravisCI](https://github.com/M3Corp-Community/Veracode/tree/main/Pipelines/TravisCI) ([IGD753](https://github.com/IGDEXE)) - Examples for how to create pipelines: Basics (Wrapper only), Advanced (U&S + SCA + Pipeline Scan) and Experts (all tools parallelizing processes)
 
 - [Unofficial Veracode Pipeline Scan](https://github.com/ctcampbell/unofficial-veracode-pipeline-scan) ([Ctcampbell](https://github.com/ctcampbell/)) - NPM package for Veracode Pipeline Scan API.
 
@@ -122,7 +108,7 @@ These projects are community contributed and not supported by Veracode. For a li
 
 - [veracode-aws-documentation](https://github.com/ClintPollock/Veracode-AWS-Code-Suite-Getting-Started-Guide) ([Clintpollock](https://github.com/Clintpollock)) - How to setup an AWS CodeSuite with Veracode Static Analysis, Software Composition Analysis, and Dynamic Analysis.
    
-- [veracode-examples](https://github.com/restonlogic/veracode-examples) ([Brandon Samuel](https://github.com/Engrave-zz)) - This repository contains veracode examples in the form of use cases that can be run in end-user environments. Kubernetes. AWS CodePipeline. CircleCi to GCP Functions. Multi-tiered application leveraging various languages.  
+- [veracode-examples](https://github.com/restonlogic/veracode-examples) ([Brandon Samuel](https://github.com/Engrave-zz)) - This repository contains veracode examples in the form of use cases that can be run in end-user environments. Kubernetes. AWS CodePipeline. CircleCi to GCP Functions. Multi-tiered application leveraging various languages.
   
 #### Azure DevOps
 
@@ -142,13 +128,9 @@ These projects are community contributed and not supported by Veracode. For a li
 
 - [SCA Findings to Work Items](https://github.com/cadonuno/SCAFindingsToWorkItems) ([Cadonuno](https://github.com/cadonuno/)) - Saves new Veracode SCA findings as Azure DevOps Work Items.
 
-- [Azure DevOps promote scan](https://github.com/dmedeiros-veracode/devops-scripts-azure-devops/blob/main/jobs/veracode-sast-platform-release-candidate-promote-job.yml) ([dmedeiros-veracode](https://github.com/dmedeiros-veracode)) - This repository contains Azure DevOps scripts that can be referenced and used for integration with Veracode Analysis tools.
-
-- [YML Examples](https://github.com/M3Corp-Community/Veracode/tree/main/Pipelines/Az%20DevOps) ([IGD753](https://github.com/IGDEXE)) - Examples for how to create pipelines: Basics (Wrapper only), Advanced (U&S + SCA + Pipeline Scan) and Experts (all tools parallelizing processes)
+- [Azure DevOps promote scan](https://github.com/dmedeiros-veracode/devops-scripts-azure-devops/blob/main/jobs/veracode-sast-platform-release-candidate-promote-job.yml) ([dmedeiros-veracode](https://github.com/dmedeiros-veracode)) - This repository contains Azure DevOps scripts that can be referenced and used for integration with Veracode Analysis tools.  
 
 #### GitHub
-
-- [Actions](https://github.com/M3Corp-Community/Veracode/tree/main/Pipelines/GitHub%20Actions) ([IGD753](https://github.com/IGDEXE)) - Examples for how to create pipelines: Basics (Wrapper only), Advanced (U&S + SCA + Pipeline Scan) and Experts (all tools parallelizing processes)
 
 - [Veracode Application Sandboxes Helper](https://github.com/marketplace/actions/veracode-application-sandboxes-helper) ([Lerer](https://github.com/Lerer/)) - An Action to handle Sandboxes mainly as a set of clean-up activities such as: deleting a sandbox and promoting Sandbox scan to Policy Scan with or without deleting the sandbox
 
@@ -194,8 +176,6 @@ These projects are community contributed and not supported by Veracode. For a li
 
 - [Veracode Upload and Scan Shell Script](https://github.com/christyson/Veracode-Upload-and-Scan-Shell-Script) ([Christyson](https://github.com/christyson/)) - A shell script to upload and scan a application (zip or war etc.) and create the application if necessary. Uses Curl and hmac headers.
 
-- [Windows & Powershell](https://github.com/M3Corp-Community/Veracode/tree/main/SOs/Windows) ([IGD753](https://github.com/IGDEXE)) - Examples for Windows Terminal using Powershell (in Portuguese)
-
 ## Pipeline Scan projects
 
 - [Pipeline2DetailedReport](https://github.com/jphillips-vc/pipeline2detailedreport) ([JPhillips-vc](https://github.com/jphillips-vc/)) - translate Veracode Pipeline Scan results into DetailedReport XML format, allowing you to import them into an IDE plugin for remediation.
@@ -225,8 +205,6 @@ These projects are community contributed and not supported by Veracode. For a li
 - [Hygieia](https://github.com/mickfeech/hygieia_veracode_collector) ([Mickfeech](https://github.com/mickfeech/)) - Veracode scan collector and parser for the [Hygieia dashboard](https://github.com/Hygieia/ExecDashboard).
 
 - [JupiterOne Graph Veracode](https://github.com/JupiterOne/graph-veracode) ([JupiterOne](https://github.com/JupiterOne/)) - A graph conversion tool for Veracode.
-
-- [Powershell: Results in Terminal](https://github.com/M3Corp-Community/Veracode/blob/main/SOs/Windows/Resultados%20SAST%20Terminal.ps1) ([IGD753](https://github.com/IGDEXE)) - Examples for how to get and show the results in Terminal using Powershell
 
 - [SCA Extractor](https://github.com/brian1917/vcodeSCAExtractor) ([Brian1917](https://github.com/brian1917)) - Creates a CSV file with open source vulnerability (SCA) findings for all builds in the input file.
 
