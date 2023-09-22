@@ -2,7 +2,7 @@
 
 Please follow the instructions below to make a contribution.
 
-This resource is not intended to be comprehensive, but we welcome contributions and corrections. 
+This resource is not intended to be comprehensive, but we welcome contributions and corrections.
 
 ## Table of Content
 
