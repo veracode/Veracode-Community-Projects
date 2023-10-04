@@ -36,6 +36,8 @@ These projects are community contributed and not supported by Veracode. For a li
 
 - [Veracode_Delete_Sandbox](https://github.com/christyson/veracode_delete_sandbox) ([Christyson](https://github.com/christyson/)) - A simple example script to delete a Sandbox if it exists in a Veracode application profile and you have the appropriate permissions.
 
+- [Bulk add teams to workspaces](https://github.com/cadonuno/add-team-to-workspace) ([cadonuno](https://github.com/cadibybi/)) - Allows for adding teams to workspaces in bulk.
+
 - [Check Build Status](https://github.com/christyson/check_build_status) ([Christyson](https://github.com/christyson/)) - Script to check if an application profile in Veracode has a build running currently.  It also provides an option to delete the build if there is one running.
 
 - [Check Pass Fail](https://github.com/christyson/check_pass_fail) ([Christyson](https://github.com/christyson)) - A simple example script to check pass/fail status of a Veracode app profile (or sandbox) or for a list of app profiles with out sandboxes.
@@ -46,11 +48,19 @@ These projects are community contributed and not supported by Veracode. For a li
 
 - [Veracode Break the Build by Severity](https://github.com/christyson/Veracode-Break-The-Build-By-Severity) ([Christyson](https://github.com/christyson/)) - This project contains three python scripts useful for working with Veracode projects in a build pipeline to break the build if any findings of a given severity or higher are found.
 
+- [Veracode Create List of Sandboxes](https://github.com/cadonuno/veracode-create-list-of-sandboxes) ([cadonuno](https://github.com/cadonuno/)) - This plugin creates a list of sandboxes in all available application profiles.
+
+- [Veracode Get All SBOMs](https://github.com/cadonuno/Veracode-Bulk-SBOM) ([cadonuno](https://github.com/cadonuno/)) - Allows for bulk generation of SBOM json files. It works for both US and EU instances and has support for Upload and Scan and Agent-based scan.
+
+- [Veracode Get Single SBOM](https://github.com/cadonuno/Veracode-Get-Sbom) ([cadonuno](https://github.com/cadonuno/)) - Gets the SBOM for a single Application Profile or Workspace/Project pair.
+
 - [Veracode Mitigation Copier](https://github.com/tjarrettveracode/veracode-mitigation-copier) ([Tjarrettveracode](https://github.com/tjarrettveracode/)) - Copies mitigations from one Veracode profile to another if it's the same flaw based on the following flaw attributes: issueid, cweid, type, sourcefile, and line. The script will copy all proposed and accepted mitigations for the flaw. The script will skip a flaw in the copy_to build if it already has an accepted mitigation.
 
 - [Veracode PDF Reports](https://github.com/jphillips-vc/veracode-pdf-reports) ([Jphillips-vc](https://github.com/jphillips-vc)) - Pulls latest PDF reports from Veracode for recent Static and Dynamic scans.
 
 - [Veracode Policy Examples](https://github.com/tjarrettveracode/veracode-policy-examples) ([Tjarrettveracode](https://github.com/tjarrettveracode)) - A collection of example application security "policies as code" that can be added to your Veracode organization account.
+
+- [Veracode Promote Named Sandbox](https://github.com/cadonuno/Veracode-Promote-Named-Sandbox) ([cadonuno](https://github.com/cadonuno/)) - This will promote the latest scan of a named sandbox.
 
 - [Veracode Sandbox Mitigated Unique Findings](https://github.com/ctcampbell/veracode-sandbox-mitigated-unique-findings) ([Ctcampbell](https://github.com/ctcampbell)) - This script will pull all open findings across all sandboxes for all applications and calculate which mitigated (proposed, accepted, or rejected) findings only exist in a single sandbox, and therefore may be deleted when the sandbox is deleted.
 
@@ -121,6 +131,8 @@ These projects are community contributed and not supported by Veracode. For a li
 - [Veracode Examples in Portuguese](https://github.com/M3Corp-Community/Veracode) - Various examples and documents about how to use and integrate Veracode in multiples scenarios (Azure DevOps, Jenkins, Github Actions, Linux, Windows...) in Portuguese.
 
 - [Veracode Flaw Importer](https://github.com/julz0815/veracode_flaw_importer) ([Julz0815](https://github.com/julz0815/)) - GitHub Action to import static policy findings to GitHub Security Code Scanning Alerts.
+
+- [Veracode Flaw Importer Postprocessing](https://github.com/cadonuno/ADOWorkItemsPostProcess) ([cadonuno](https://github.com/cadonuno/)) - Plugin made to run after the regular import to update the work items with an assigned user and a linked Work Item.
 
 - [Veracode for Azure DevOps Pipelines](https://github.com/zoekdestep/veracode-ado-pipelines) ([zoekdestep](https://github.com/zoekdestep/)) - Yaml files to get started with Veracode on Azure DevOps. Accompanies this [blog post](https://community.veracode.com/s/blog/user-story-how-we-set-up-veracode-in-a-large-azure-project-MCT4HNONEE55CIFA6O3ULXNUW2BI).
 
@@ -207,6 +219,8 @@ These projects are community contributed and not supported by Veracode. For a li
 - [JupiterOne Graph Veracode](https://github.com/JupiterOne/graph-veracode) ([JupiterOne](https://github.com/JupiterOne/)) - A graph conversion tool for Veracode.
 
 - [SCA Extractor](https://github.com/brian1917/vcodeSCAExtractor) ([Brian1917](https://github.com/brian1917)) - Creates a CSV file with open source vulnerability (SCA) findings for all builds in the input file.
+
+- [Veracode Container Scan results to HTML](https://github.com/cadonuno/VeracodeContainerScanToHtml) ([cadonuno](https://github.com/cadonuno)) - Converts the JSON output of a Veracode container scan into HTML.
 
 - [Veracode Scan Compare](https://github.com/antfie/scan_compare) ([antfie](https://github.com/antfie)) - Use this tool to compare two Veracode Static Analysis (SAST) scans to understand why they are different.
 
