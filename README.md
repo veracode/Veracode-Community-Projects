@@ -100,8 +100,6 @@ These projects are community contributed and not supported by Veracode. For a li
 
 - [Jenkins (Jenkins Shell)](https://github.com/ian-c-leonard/veracode_jenkins_shell) ([Ian C Leonard](https://github.com/ian-c-leonard)) - unofficial Veracode shell integration for Jenkins Freestyle projects.
 
-- [Unofficial Veracode Pipeline Scan](https://github.com/ctcampbell/unofficial-veracode-pipeline-scan) ([Ctcampbell](https://github.com/ctcampbell/)) - NPM package for Veracode Pipeline Scan API.
-
 - [veracode-badges](https://github.com/Lerer/veracode-badge) ([Lerer](https://github.com/Lerer/)) - produces badges for READMEs and other artifact repositories showing the status of Veracode policy scans.
 
 - [Veracode Community SAST Azure DevOps Extension](https://github.com/MetLife/VeracodeCommunitySAST) ([MetLife](https://github.com/MetLife/)) - Seamlessly integrate Veracode SAST scans with Azure DevOps build pipelines (using Pipeline Scan).
