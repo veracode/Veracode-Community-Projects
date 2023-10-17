@@ -192,6 +192,10 @@ These projects are community contributed and not supported by Veracode. For a li
 
 - [pipeline2html](https://github.com/victor-secops/pipeline2html) ([Victor-secops](https://github.com/victor-secops/)) - run a Veracode Pipeline Scan and generate a human-readable .HTML file from the Veracode pipeline verification results.json file.
 
+- [Pipeline2JUnitXml](https://github.com/cadonuno/Pipeline2JUnitXml) ([cadonuno](https://github.com/cadonuno/)) - reads the JSON output of a Veracode Pipeline Scan and converts it into a standard JUnit test results XML file.
+
+- [PipelineResultsCompare](https://github.com/cadonuno/PipelineResultsCompare) ([cadonuno](https://github.com/cadonuno/)) - checks if there are any issues present on a pipeline results file that aren't present on another, supporting filtering by severity.
+
 - [veracode-pipeline-PR-comment](https://github.com/Lerer/veracode-pipeline-PR-comment) ([Lerer](https://github.com/Lerer/veracode-pipeline-PR-comment)) - Sends output of Pipeline Scan to a comment on a pull request.
 
 - [veracode-pipeline-with-baseline](https://github.com/runkalicious/veracode-pipeline-with-baseline) ([Runkalicious](https://github.com/runkalicious/)) - GitHub Action to perform a Veracode Pipeline Scan and, optionally, compare the results against a set of baseline results.
