@@ -206,7 +206,7 @@ These projects are community contributed and not supported by Veracode. For a li
 
 - [Veracode Dynamic Analysis Examples](https://github.com/anon-veracoder/veracode-dynamic-analysis-api-examples) ([anon-veracoder](https://github.com/anon-veracoder)) - Dynamic Analysis API Examples.  Currently includes example code for using the Scanner Variables feature, where credentials can be defined and updated at the account level, and referenced in Selenium login scripts.
 
-- [Veracode DAST - Add bulk urls to blocklist](https://github.com/AaronButler-Veracode/veracode_DAST_add_to_blocklist) ([aabutler](https://github.com/AaronButler-Veracode)) - Adds a list of urls to the blocklist for an existing DAST scan.
+- [Veracode DAST Add bulk urls to blocklist](https://github.com/AaronButler-Veracode/veracode_DAST_add_to_blocklist) ([aabutler](https://github.com/AaronButler-Veracode)) - Adds a list of urls to the blocklist for an existing DAST scan.
 
 ## Results collection and display
 
