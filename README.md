@@ -20,6 +20,7 @@ These projects are community contributed and not supported by Veracode. For a li
   - [Other](#other)
 - [Pipeline Scan projects](#pipeline-scan-projects)
 - [Dynamic Analysis projects](#dynamic-analysis-projects)
+- [SCA related Projects](#sca-related-projects)
 - [Results collection and display](#results-collection-and-display)
 - [User provisioning, management and deprovisioning](#user-provisioning-management-and-deprovisioning)
 - [Application vulnerability correlation](#application-vulnerability-correlation)
@@ -207,6 +208,12 @@ These projects are community contributed and not supported by Veracode. For a li
 - [Veracode Dynamic Analysis Examples](https://github.com/anon-veracoder/veracode-dynamic-analysis-api-examples) ([anon-veracoder](https://github.com/anon-veracoder)) - Dynamic Analysis API Examples.  Currently includes example code for using the Scanner Variables feature, where credentials can be defined and updated at the account level, and referenced in Selenium login scripts.
 
 - [Veracode DAST Add bulk urls to blocklist](https://github.com/AaronButler-Veracode/veracode_DAST_add_to_blocklist) ([aabutler](https://github.com/AaronButler-Veracode)) - Adds a list of urls to the blocklist for an existing DAST scan.
+
+## SCA related projects
+
+- [yarn-v2-workspaces-helper](https://github.com/julz0815/yarnv2-workspaces-helper) ([Julz0815](https://github.com/julz0815/)) - Creates yarn.lock files for each workspace to make the whole project scannable with Veracode's SCA solution. this is specifically for yarn version 2 and lower
+
+- [yarn-v3-workspaces-helper](https://github.com/julz0815/yarnv3-workspaces-helper) ([Julz0815](https://github.com/julz0815/)) - Creates yarn.lock files for each workspace to make the whole project scannable with Veracode's SCA solution. this is specifically for yarn version 3 and higher  
 
 ## Results collection and display
 
