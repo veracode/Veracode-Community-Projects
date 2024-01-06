@@ -20,7 +20,7 @@ These projects are community contributed and not supported by Veracode. For a li
   - [Other](#other)
 - [Pipeline Scan projects](#pipeline-scan-projects)
 - [Dynamic Analysis projects](#dynamic-analysis-projects)
-- [SCA related Projects](#sca-scan-projects)
+- [SCA related Projects](#sca-related-projects)
 - [Results collection and display](#results-collection-and-display)
 - [User provisioning, management and deprovisioning](#user-provisioning-management-and-deprovisioning)
 - [Application vulnerability correlation](#application-vulnerability-correlation)
