@@ -22,15 +22,4 @@ This resource is not intended to be comprehensive, but we welcome contributions 
 
 ## Contributors
 
-- [Tim Jarrett](https://github.com/tjarrettveracode)
-- [Buzzcode](https://github.com/buzzcode)
-- [Sebcoles](https://github.com/sebcoles)
-- [Antfie](https://github.com/antfie)
-- [JonZeolla](https://github.com/JonZeolla)
-- [Dave Ferguson](https://github.com/gmdavef)
-- [Florian Walter](https://github.com/dub-flow)
-- [Jon Janego](https://github.com/jonjanego)
-- [Chris Tyson](https://github.com/christyson)
-- [Boy Baukema](https://github.com/relaxnow)
-- [Coby Lerer](https://github.com/lerer)
-- [Ivo Dias](https://github.com/IGDEXE)
+- [Iftikhar Ahmad](https://github.com/iftikhar-ahmad-bisp)
