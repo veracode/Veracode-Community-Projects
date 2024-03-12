@@ -59,7 +59,6 @@ These projects are community contributed and not supported by Veracode. For a li
 
 - [Veracode SAST Bulk Mitigator](https://github.com/antfie/veracode_bulk_mitigator) ([antfie](https://github.com/antfie/)) - This tool performs bulk mitigation actions on open SAST flaws reported in multiple application profiles. The definitions of what to mitigate (e.g. file name, line number) and the mitigation comments and actions to apply are defined via a JSON file. Application profile names to target are specified via a text file or alternatively a flag can be set to process all application profiles.
 
-
 - [Veracode PDF Reports](https://github.com/jphillips-vc/veracode-pdf-reports) ([Jphillips-vc](https://github.com/jphillips-vc)) - Pulls latest PDF reports from Veracode for recent Static and Dynamic scans.
 
 - [Veracode Policy Examples](https://github.com/tjarrettveracode/veracode-policy-examples) ([Tjarrettveracode](https://github.com/tjarrettveracode)) - A collection of example application security "policies as code" that can be added to your Veracode organization account.
