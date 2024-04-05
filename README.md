@@ -37,7 +37,9 @@ These projects are community contributed and not supported by Veracode. For a li
 
 - [Veracode_Delete_Sandbox](https://github.com/christyson/veracode_delete_sandbox) ([Christyson](https://github.com/christyson/)) - A simple example script to delete a Sandbox if it exists in a Veracode application profile and you have the appropriate permissions.
 
-- [Bulk add teams to workspaces](https://github.com/cadonuno/add-team-to-workspace) ([cadonuno](https://github.com/cadibybi/)) - Allows for adding teams to workspaces in bulk.
+- [Bulk add teams to workspaces](https://github.com/cadonuno/add-team-to-workspace) ([cadonuno](https://github.com/cadonuno/)) - Allows for adding teams to workspaces in bulk.
+
+- [Veracode Bulk User Permissions](https://github.com/cadonuno/Veracode-Bulk-Team-Assignment) ([cadonuno](https://github.com/cadonuno/)) - This script allows for bulk setting of roles and permissions for Veracode users.
 
 - [Check Build Status](https://github.com/christyson/check_build_status) ([Christyson](https://github.com/christyson/)) - Script to check if an application profile in Veracode has a build running currently.  It also provides an option to delete the build if there is one running.
 
@@ -213,6 +215,10 @@ These projects are community contributed and not supported by Veracode. For a li
 
 ## SCA related projects
 
+- [Veracode-Get-EPSS-Info](https://github.com/cadonuno/Veracode-Get-EPSS-Info) ([cadonuno](https://github.com/cadonuno/)) - Gets all the SCA findings available to the user, including EPSS scores and percentiles.
+
+- [Veracode-SCA-Webhook-Redirect](https://github.com/cadonuno/Veracode-SCA-Webhook-Redirect) ([cadonuno](https://github.com/cadonuno/)) - This Project exposes a Tomcat server that can redirect Veracode Agent-based SCA web hooks to Teams and Slack.
+
 - [yarn-v2-workspaces-helper](https://github.com/julz0815/yarnv2-workspaces-helper) ([Julz0815](https://github.com/julz0815/)) - Creates yarn.lock files for each workspace to make the whole project scannable with Veracode's SCA solution. this is specifically for yarn version 2 and lower
 
 - [yarn-v3-workspaces-helper](https://github.com/julz0815/yarnv3-workspaces-helper) ([Julz0815](https://github.com/julz0815/)) - Creates yarn.lock files for each workspace to make the whole project scannable with Veracode's SCA solution. this is specifically for yarn version 3 and higher  
@@ -248,6 +254,8 @@ These projects are community contributed and not supported by Veracode. For a li
 - [Veracode Report Converter (CSV)](https://github.com/dipsylala/VeracodeReportConverter-Windows) ([Dipsylala](https://github.com/dipsylala/)) - .NET Framework utility to extract useful data from Detailed Report XML file into CSV format
 
 - [Veracode Report Converter Portable (CSV)](https://github.com/dipsylala/VeracodeReportConverter-Portable) ([Dipsylala](https://github.com/dipsylala/)) - .NET Core utility to extract useful data from Detailed Report XML file into CSV format
+
+- [Veracode Bulk Reporting API Import](https://github.com/cadonuno/veracode-reporting-api-bulk-import) ([Cadonuno](https://github.com/cadonuno/)) - Retrieves all the data available from the Veracode Reporting API from a specific start date
 
 - [Veracode Gitlab SCA results report and issue generation](https://gitlab.com/julz0815/scaresultsreport) ([julz0815](https://gitlab.com/julz0815/)) - Rewrites Veracode's Agent Based SCA json results in Gitlab readable report format in (orde)r to display results as dependency scanning on the pipeline run
 
