@@ -267,7 +267,7 @@ These projects are community contributed and not supported by Veracode. For a li
 
 - [Veracode Container Security Display (Unofficial)](https://relaxnow.github.io/vcsd/) ([relaxnow](https://github.com/relaxnow)) - Display, sort and filter Container Security JSON results.
 
-- [Veracode Verify Scan Results](https://github.com/cadonuno/Veracode-Verify-Scan-Results) ([relaxnow](https://github.com/cadonuno)) - This script checks for the results of the latest scan for an application profile (and optionally a sandbox) and returns all the results that meet a minimum severity criteria. Can optionally consider SCA results and fail a build.
+- [Veracode Verify Scan Results](https://github.com/cadonuno/Veracode-Verify-Scan-Results) ([cadonuno](https://github.com/cadonuno)) - This script checks for the results of the latest scan for an application profile (and optionally a sandbox) and returns all the results that meet a minimum severity criteria. Can optionally consider SCA results and fail a build.
 
 - [TopDesk](https://github.com/daniel-marchi/Veracode.Integration.TopDesk) ([Daniel-Marchi](https://github.com/daniel-marchi)) - Integration with ITSM | CSC | ESM tool called [TopDesk](https://www.topdesk.com/).
 
