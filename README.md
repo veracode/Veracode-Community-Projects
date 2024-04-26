@@ -39,7 +39,7 @@ These projects are community contributed and not supported by Veracode. For a li
 
 - [Bulk add teams to workspaces](https://github.com/cadonuno/add-team-to-workspace) ([cadonuno](https://github.com/cadonuno/)) - Allows for adding teams to workspaces in bulk.
 
-- [Veracode Bulk User Permissions](https://github.com/cadonuno/Veracode-Bulk-Team-Assignment) ([cadonuno](https://github.com/cadonuno/)) - This script allows for bulk setting of roles and permissions for Veracode users.
+- [Veracode Bulk User Creator/Editor](https://github.com/cadonuno/Veracode-Bulk-User-Management) ([cadonuno](https://github.com/cadonuno/)) - This script allows for bulk modifying and/or creating users in Veracode.
 
 - [Check Build Status](https://github.com/christyson/check_build_status) ([Christyson](https://github.com/christyson/)) - Script to check if an application profile in Veracode has a build running currently.  It also provides an option to delete the build if there is one running.
 
@@ -266,6 +266,8 @@ These projects are community contributed and not supported by Veracode. For a li
 - [VCCLI](https://github.com/michaelhorty/VCCLI) ([Michaelhorty](https://github.com/michaelhorty)) - Veracode AST and Security Labs utility in .NET Core.
 
 - [Veracode Container Security Display (Unofficial)](https://relaxnow.github.io/vcsd/) ([relaxnow](https://github.com/relaxnow)) - Display, sort and filter Container Security JSON results.
+
+- [Veracode Verify Scan Results](https://github.com/cadonuno/Veracode-Verify-Scan-Results) ([relaxnow](https://github.com/cadonuno)) - This script checks for the results of the latest scan for an application profile (and optionally a sandbox) and returns all the results that meet a minimum severity criteria. Can optionally consider SCA results and fail a build.
 
 - [TopDesk](https://github.com/daniel-marchi/Veracode.Integration.TopDesk) ([Daniel-Marchi](https://github.com/daniel-marchi)) - Integration with ITSM | CSC | ESM tool called [TopDesk](https://www.topdesk.com/).
 
