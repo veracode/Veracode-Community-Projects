@@ -173,6 +173,8 @@ These projects are community contributed and not supported by Veracode. For a li
 
 - [Veracode-Postman](https://github.com/veracode/veracode-postman) ([Veracode](https://github.com/veracode/)) - Pre-request authentication script and instructions for accessing Veracode APIs from Postman.
 
+- [Veracode-API-HMAC-Rapid-Api-Extension](https://github.com/literallyjustroy/Veracode-API-HMAC-Rapid-Api-Extension) ([Literallyjustroy](https://github.com/literallyjustroy)) - An extension for the RapidAPI (Paw) REST Client to authenticate into the Veracode REST APIs using HMAC.
+
 ### Other
 
 - [Ansible](https://github.com/telusdigital/ansible-veracode-scanner) ([Telus Digital](https://github.com/telusdigital)) - allows uploading and scanning with Veracode from Ansible, with an option to send results to a Slack channel
