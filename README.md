@@ -8,28 +8,31 @@ These projects are community contributed and not supported by Veracode. For a li
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Contents**
 
-- [Automating common Veracode Platform tasks](#automating-common-veracode-platform-tasks)
-- [Developer tools](#developer-tools)
-  - [Auto Packagers (for SAST)](#auto-packagers-for-sast)
-  - [CI/CD](#cicd)
-    - [Azure DevOps](#azure-devops)
-    - [GitHub](#github)
-  - [Build tools](#build-tools)
-  - [IDEs](#ides)
-  - [API testing tools](#api-testing-tools)
-  - [Other](#other)
-- [Pipeline Scan projects](#pipeline-scan-projects)
-- [Dynamic Analysis projects](#dynamic-analysis-projects)
-- [SCA related Projects](#sca-related-projects)
-- [Results collection and display](#results-collection-and-display)
-- [User provisioning, management and deprovisioning](#user-provisioning-management-and-deprovisioning)
-- [Application vulnerability correlation](#application-vulnerability-correlation)
-- [HMAC Signing libraries](#hmac-signing-libraries)
-- [API wrappers](#api-wrappers)
-- [Other integrations](#other-integrations)
-- [Secure coding examples](#secure-coding-examples)
-- [Insecure applications](#insecure-applications)
-- [Automating Security Labs tasks](#automating-security-labs-tasks)
+- [Veracode Community Open Source Projects](#veracode-community-open-source-projects)
+  - [Automating common Veracode Platform tasks](#automating-common-veracode-platform-tasks)
+  - [Developer tools](#developer-tools)
+    - [Auto Packagers (for SAST)](#auto-packagers-for-sast)
+    - [CI/CD](#cicd)
+      - [Azure DevOps](#azure-devops)
+      - [GitHub](#github)
+    - [Build tools](#build-tools)
+    - [IDEs](#ides)
+    - [API testing tools](#api-testing-tools)
+    - [Other](#other)
+  - [Pipeline Scan projects](#pipeline-scan-projects)
+  - [Dynamic Analysis projects](#dynamic-analysis-projects)
+  - [SCA related projects](#sca-related-projects)
+  - [Results collection and display](#results-collection-and-display)
+  - [User provisioning, management and deprovisioning](#user-provisioning-management-and-deprovisioning)
+  - [Application vulnerability correlation](#application-vulnerability-correlation)
+  - [HMAC Signing libraries](#hmac-signing-libraries)
+  - [API wrappers](#api-wrappers)
+  - [Other integrations](#other-integrations)
+  - [Secure coding examples](#secure-coding-examples)
+  - [Insecure applications](#insecure-applications)
+  - [Automating Security Labs tasks](#automating-security-labs-tasks)
+  - [Licensing Sizing Helper](#licensing-sizing-helper)
+    - [Github](#github-1)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -98,7 +101,7 @@ These projects are community contributed and not supported by Veracode. For a li
 - [CircleCI](https://github.com/buzzcode/NodeGoat/blob/master/.circleci/config.yml) ([buzzcode](https://github.com/buzzcode)) - Example configuration for zipping a project, then executing policy scan, agent-based SCA, and pipeline scan in a CircleCI pipeline.
 
 - [easy_sast](https://github.com/seisollc/easy_sast) - ([docker container](https://hub.docker.com/r/seiso/easy_sast)) - A docker container for use in CI pipelines which integrates with Veracode's static analysis tool.
-   
+  
 - [Exemplos Veracode](https://github.com/M3Corp-Community/Veracode) ([Ivo Dias](https://github.com/IGDEXE)) - In this repository you will find several examples for Veracode implementations created by the [M3Corp](https://github.com/M3Corp-Community) team. In the [Pipelines](https://github.com/M3Corp-Community/Veracode/tree/main/Pipelines) folder you can find how to implement in the most diverse CI/CD tools, such as [Azure](https://github.com/M3Corp-Community/Veracode/tree/main/Pipelines/Az%20DevOps), [GitLab](https://github.com/M3Corp-Community/Veracode/tree/main/Pipelines/GitLab), [GitHub Actions](https://github.com/M3Corp-Community/Veracode/tree/main/Pipelines/GitHub%20Actions) and [Jenkins](https://github.com/M3Corp-Community/Veracode/tree/main/Pipelines/Jenkins). Other implementation examples such as running in a [terminal](https://github.com/M3Corp-Community/Veracode/tree/main/SOs) and [translating the results](https://github.com/M3Corp-Community/Veracode/tree/main/FreeStyle) are also available. We normally publish in Portuguese, but the examples are completely understandable in other languages
 
 - [Jenkins (Jenkins Shell)](https://github.com/ian-c-leonard/veracode_jenkins_shell) ([Ian C Leonard](https://github.com/ian-c-leonard)) - unofficial Veracode shell integration for Jenkins Freestyle projects.
@@ -118,7 +121,7 @@ These projects are community contributed and not supported by Veracode. For a li
 - [veracode-yml-sample-pipelines](https://github.com/victor-secops/Veracode-yml-sample-pipelines) ([Victor-secops](https://github.com/victor-secops/)) - example YML files for Azure DevOps, Jenkins, GitLab, CircleCI. Pipelines include Veracode SCA Agent scans, Veracode Static Analysis policy and pipeline scans.
 
 - [veracode-aws-documentation](https://github.com/ClintPollock/Veracode-AWS-Code-Suite-Getting-Started-Guide) ([Clintpollock](https://github.com/Clintpollock)) - How to setup an AWS CodeSuite with Veracode Static Analysis, Software Composition Analysis, and Dynamic Analysis.
-   
+  
 - [veracode-examples](https://github.com/restonlogic/veracode-examples) ([Brandon Samuel](https://github.com/Engrave-zz)) - This repository contains veracode examples in the form of use cases that can be run in end-user environments. Kubernetes. AWS CodePipeline. CircleCi to GCP Functions. Multi-tiered application leveraging various languages.
   
 #### Azure DevOps
@@ -145,7 +148,7 @@ These projects are community contributed and not supported by Veracode. For a li
 
 #### GitHub
 
-- [Veracode Application Sandboxes Helper](https://github.com/marketplace/actions/veracode-application-sandboxes-helper) ([Lerer](https://github.com/Lerer/)) - An Action to handle Sandboxes mainly as a set of clean-up activities such as: deleting a sandbox and promoting Sandbox scan to Policy Scan with or without deleting the sandbox
+- [Veracode Application Sandboxes Helper](https://github.com/marketplace/actions/veracode-application-sandboxes-helper) ([Lerer](https://github.com/Lerer/)) - An Action to handle Sandboxes mainly as a set of clean-up activities such as: deleting a sandbox and promoting Sandbox scan to Policy Scan with or without deleting the sandbox.
 
 ### Build tools
 
@@ -345,6 +348,17 @@ These projects are community contributed and not supported by Veracode. For a li
   
 - [NodeGoat](https://github.com/buzzcode/NodeGoat) ([Buzzcode](https://github.com/buzzcode/)) - NodeGoat, built w/CircleCI, showing how to use a yaml file to scan w/Veracode.
 
+  
+
 ## Automating Security Labs tasks
 
 - [Security Labs Scripts](https://github.com/gmdavef/security-labs-scripts) ([Dave Ferguson](https://github.com/gmdavef)) - Python scripts to automate various administrative tasks in Veracode Security Labs.
+
+  
+
+## Licensing Sizing Helper
+
+### Github
+
+- [Github Committers Spy](https://github.com/0xtiago/GithubCommittersSpy) [(0xtiago)](https://github.com/0xtiago) -  This script enumerates active committers in specified GitHub repositories over a given number of days. It fetches the data using the GitHub API and outputs the results to CSV files. The objective behind this project was to facilitate the survey of the real number of users who collaborate in the Github repositories of important company projects, and thus be able to price SAST and SCA licenses with greater accuracy.
+
