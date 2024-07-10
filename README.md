@@ -219,6 +219,8 @@ These projects are community contributed and not supported by Veracode. For a li
 
 ## Results collection and display
 
+- Collections Report [PDF, CSV, JSON](https://github.com/tjarrettveracode/veracode-collections-report) ([tjarrettveracode](https://github.com/tjarrettveracode/)) - Python script to retrive Collection results and output to PDF, CSV and/or JSON format.
+
 - [Excel (XLS)](https://github.com/Komiblanka/Veracode2xls) ([Komiblanka](https://github.com/Komiblanka/)) - Python scripts to format Veracode XML results into Excel workbook formats for easier human consumption.  
 
 - [(XLSX)](https://github.com/Komiblanka/Veracode2xlsx) ([Komiblanka](https://github.com/Komiblanka/)) - Python scripts to format Veracode XML results into Excel workbook formats for easier human consumption.
