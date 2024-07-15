@@ -227,7 +227,9 @@ These projects are community contributed and not supported by Veracode. For a li
 
 - [Generate License Notice file](https://github.com/gmdavef/sca-scripts) ([Dave Ferguson](https://github.com/gmdavef)) - Python script that creates a License Notice file (sometimes called an Attribution Report) for an application that has been scanned by Veracode SCA.
 
-- [Generate SBOM](https://github.com/christyson/GenerateSBOM) ([Chris Tyson](https://github.com/christyson)) - Python script to generate a Software Bill of Materials (SBOM) for an application in either CycloneDX or SPDX format.
+- [Generate SBOM with Python](https://github.com/christyson/GenerateSBOM) ([Chris Tyson](https://github.com/christyson)) - Python script to generate a Software Bill of Materials (SBOM) for an application in either CycloneDX or SPDX format.
+
+- [Generate SBOM with Powershell](https://github.com/christyson/GenerateSBOMPS) ([Chris Tyson](https://github.com/christyson)) - Powershell script to generate a Software Bill of Materials (SBOM) for an application in either CycloneDX or SPDX format.
 
 - [Hygieia](https://github.com/mickfeech/hygieia_veracode_collector) ([Mickfeech](https://github.com/mickfeech/)) - Veracode scan collector and parser for the [Hygieia dashboard](https://github.com/Hygieia/ExecDashboard).
 
