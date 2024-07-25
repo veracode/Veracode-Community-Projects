@@ -107,7 +107,7 @@ These projects are community contributed and not supported by Veracode. For a li
 
 - [Veracode Community SAST Azure DevOps Extension](https://github.com/MetLife/VeracodeCommunitySAST) ([MetLife](https://github.com/MetLife/)) - Seamlessly integrate Veracode SAST scans with Azure DevOps build pipelines (using Pipeline Scan).
 
-- [veracode-scripts](https://gitlab.com/aszaryk/veracode-scripts) - Various example scripts for Jenkins and GitLab pipelines, including both static and dynamic examples.
+- [veracode-scripts](https://gitlab.com/aszaryk/veracode-scripts) ([aszaryk](https://github.com/aszaryk)) - Various example scripts for Jenkins and GitLab pipelines, including both static and dynamic examples.
 
 - [veracode-serverless-webhooks](https://github.com/Lerer/serverless-veracode-webhooks) ([Lerer](https://github.com/Lerer)) - enables Veracode customers who want to use the Veracode Upload-and-Scan Static and SCA (not the Pipeline or the IDE scans) and get updates back in an asynchronous manner.
 
@@ -216,6 +216,8 @@ These projects are community contributed and not supported by Veracode. For a li
 - [yarn-v2-workspaces-helper](https://github.com/julz0815/yarnv2-workspaces-helper) ([Julz0815](https://github.com/julz0815/)) - Creates yarn.lock files for each workspace to make the whole project scannable with Veracode's SCA solution. this is specifically for yarn version 2 and lower
 
 - [yarn-v3-workspaces-helper](https://github.com/julz0815/yarnv3-workspaces-helper) ([Julz0815](https://github.com/julz0815/)) - Creates yarn.lock files for each workspace to make the whole project scannable with Veracode's SCA solution. this is specifically for yarn version 3 and higher  
+
+- [veracode-bulk-cve-suppression](https://github.com/aszaryk/veracode-bulk-cve-suppression) ([aszaryk](https://github.com/aszaryk)) - Allows for bulk suppression of specific CVE across full application portfolio
 
 ## Results collection and display
 
