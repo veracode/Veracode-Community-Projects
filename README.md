@@ -39,6 +39,13 @@ These projects are community contributed and not supported by Veracode. For a li
 
 - [Bulk add teams to workspaces](https://github.com/cadonuno/add-team-to-workspace) ([cadonuno](https://github.com/cadonuno/)) - Allows for adding teams to workspaces in bulk.
 
+- [Veracode Application Profile Splitting Helper](https://github.com/cadonuno/Veracode-Application-Profile-Splitting-Helper) ([cadonuno](https://github.com/cadonuno/)) - This script is a helper for splitting application profiles. This is usually recommended when working with microservices to ensure that all of them can be scanned individually.
+
+- [Veracode Bulk Application Creator](https://github.com/cadonuno/Veracode-Bulk-Application-Creator) ([cadonuno](https://github.com/cadonuno/)) - This script allows for bulk importing application profiles into the Veracode platform.
+
+- [Veracode Bulk Application Update](https://github.com/cadonuno/Veracode-Bulk-Application-Update) ([cadonuno](https://github.com/cadonuno/)) - This script allows for bulk updating application profiles in the Veracode platform.
+
+
 - [Veracode Bulk User Creator and Editor](https://github.com/cadonuno/Veracode-Bulk-User-Management) ([cadonuno](https://github.com/cadonuno/)) - This script allows for bulk modifying and/or creating users in Veracode.
 
 - [Check Build Status](https://github.com/christyson/check_build_status) ([Christyson](https://github.com/christyson/)) - Script to check if an application profile in Veracode has a build running currently.  It also provides an option to delete the build if there is one running.
