@@ -9,6 +9,11 @@ These projects are community contributed and not supported by Veracode. For a li
 **Contents**
 
 - [Automating common Veracode Platform tasks](#automating-common-veracode-platform-tasks)
+  - [Application Profile maintenance](#application-profile-maintenance)
+  - [Mitigations](#mitigations)
+  - [Sandboxes](#sandboxes)
+  - [Scan status](#scan-status)
+  - [Other tasks](#other-tasks)
 - [Developer tools](#developer-tools)
   - [Auto Packagers (for SAST)](#auto-packagers-for-sast)
   - [CI/CD](#cicd)
@@ -18,9 +23,10 @@ These projects are community contributed and not supported by Veracode. For a li
   - [IDEs](#ides)
   - [API testing tools](#api-testing-tools)
   - [Other](#other)
-- [Pipeline Scan projects](#pipeline-scan-projects)
-- [Dynamic Analysis projects](#dynamic-analysis-projects)
-- [SCA related Projects](#sca-related-projects)
+- [Pipeline Scan](#pipeline-scan)
+- [Dynamic Analysis](#dynamic-analysis)
+- [Software Composition Analysis](#software-composition-analysis)
+- [SBOM](#sbom)
 - [Results collection and display](#results-collection-and-display)
 - [User provisioning, management and deprovisioning](#user-provisioning-management-and-deprovisioning)
 - [Application vulnerability correlation](#application-vulnerability-correlation)
@@ -35,54 +41,57 @@ These projects are community contributed and not supported by Veracode. For a li
 
 ## Automating common Veracode Platform tasks
 
-- [Veracode_Delete_Sandbox](https://github.com/christyson/veracode_delete_sandbox) ([Christyson](https://github.com/christyson/)) - A simple example script to delete a Sandbox if it exists in a Veracode application profile and you have the appropriate permissions.
-
-- [Bulk add teams to workspaces](https://github.com/cadonuno/add-team-to-workspace) ([cadonuno](https://github.com/cadonuno/)) - Allows for adding teams to workspaces in bulk.
-
-- [Veracode Application Profile Splitting Helper](https://github.com/cadonuno/Veracode-Application-Profile-Splitting-Helper) ([cadonuno](https://github.com/cadonuno/)) - This script is a helper for splitting application profiles. This is usually recommended when working with microservices to ensure that all of them can be scanned individually.
+### Application Profile maintenance
 
 - [Veracode Bulk Application Creator](https://github.com/cadonuno/Veracode-Bulk-Application-Creator) ([cadonuno](https://github.com/cadonuno/)) - This script allows for bulk importing application profiles into the Veracode platform.
 
 - [Veracode Bulk Application Update](https://github.com/cadonuno/Veracode-Bulk-Application-Update) ([cadonuno](https://github.com/cadonuno/)) - This script allows for bulk updating application profiles in the Veracode platform.
 
+- [Veracode Application Profile Splitting Helper](https://github.com/cadonuno/Veracode-Application-Profile-Splitting-Helper) ([cadonuno](https://github.com/cadonuno/)) - This script is a helper for splitting application profiles. This is usually recommended when working with microservices to ensure that all of them can be scanned individually.
 
-- [Veracode Bulk User Creator and Editor](https://github.com/cadonuno/Veracode-Bulk-User-Management) ([cadonuno](https://github.com/cadonuno/)) - This script allows for bulk modifying and/or creating users in Veracode.
+- [Veracode Add Repo URL](https://gitlab.com/buzzcode/veracode-add-repo-url) ([Kevin Rise](https://gitlab.com/buzzcode/)) - Populates the `git repo URL` field in one or more Veracode application profiles from a CSV file.
 
-- [Check Build Status](https://github.com/christyson/check_build_status) ([Christyson](https://github.com/christyson/)) - Script to check if an application profile in Veracode has a build running currently.  It also provides an option to delete the build if there is one running.
-
-- [Check Pass Fail](https://github.com/christyson/check_pass_fail) ([Christyson](https://github.com/christyson)) - A simple example script to check pass/fail status of a Veracode app profile (or sandbox) or for a list of app profiles with out sandboxes.
+### Mitigations
 
 - [VcodeAutoMitigate](https://github.com/brian1917/vcodeAutoMitigate) ([Brian1917](https://github.com/brian1917/)) - Command line app that mitigates flaws in Veracode based on CWE, scan type, and specific text in the description.
 
 - [VcodeMitigationExpire](https://github.com/brian1917/vcodeMitigationExpire) ([Brian1917](https://github.com/brian1917/)) - Utility designed to be run on a regular cadence (e.g., weekly cron job) to expire mitigations. The types of mitigations, expiration references, and other settings are controlled in a JSON config file.
 
-- [Veracode Break the Build by Severity](https://github.com/christyson/Veracode-Break-The-Build-By-Severity) ([Christyson](https://github.com/christyson/)) - This project contains three python scripts useful for working with Veracode projects in a build pipeline to break the build if any findings of a given severity or higher are found.
-
-- [Veracode Create List of Sandboxes](https://github.com/cadonuno/veracode-create-list-of-sandboxes) ([cadonuno](https://github.com/cadonuno/)) - This plugin creates a list of sandboxes in all available application profiles.
-
-- [Veracode Get All SBOMs](https://github.com/cadonuno/Veracode-Bulk-SBOM) ([cadonuno](https://github.com/cadonuno/)) - Allows for bulk generation of SBOM json files. It works for both US and EU instances and has support for Upload and Scan and Agent-based scan.
-
-- [Veracode Get Single SBOM](https://github.com/cadonuno/Veracode-Get-Sbom) ([cadonuno](https://github.com/cadonuno/)) - Gets the SBOM for a single Application Profile or Workspace/Project pair.
-
 - [Veracode Mitigation Copier](https://github.com/tjarrettveracode/veracode-mitigation-copier) ([Tjarrettveracode](https://github.com/tjarrettveracode/)) - Copies mitigations from one Veracode profile to another if it's the same flaw based on the following flaw attributes: issueid, cweid, type, sourcefile, and line. The script will copy all proposed and accepted mitigations for the flaw. The script will skip a flaw in the copy_to build if it already has an accepted mitigation.
 
 - [Veracode SAST Bulk Mitigator](https://github.com/antfie/veracode_bulk_mitigator) ([antfie](https://github.com/antfie/)) - This tool performs bulk mitigation actions on open SAST flaws reported in multiple application profiles. The definitions of what to mitigate (e.g. file name, line number) and the mitigation comments and actions to apply are defined via a JSON file. Application profile names to target are specified via a text file or alternatively a flag can be set to process all application profiles.
+
+### Sandboxes
+
+- [Veracode Create List of Sandboxes](https://github.com/cadonuno/veracode-create-list-of-sandboxes) ([cadonuno](https://github.com/cadonuno/)) - This plugin creates a list of sandboxes in all available application profiles.
+
+- [Veracode Promote Named Sandbox](https://github.com/cadonuno/Veracode-Promote-Named-Sandbox) ([cadonuno](https://github.com/cadonuno/)) - This will promote the latest scan of a named sandbox.
+
+- [Veracode_Delete_Sandbox](https://github.com/christyson/veracode_delete_sandbox) ([Christyson](https://github.com/christyson/)) - A simple example script to delete a Sandbox if it exists in a Veracode application profile and you have the appropriate permissions.
+
+- [Veracode Delete Sandboxes via Threshold](https://github.com/julz0815/VeracodeDeleteSandboxes) ([Julz0815](https://github.com/julz0815/)) - Java Script that will automatically delete Sandboxes from a profile via a configured threshold and the number of Sandboxes to be deleted.
+
+### Scan status
+
+- [Check Build Status](https://github.com/christyson/check_build_status) ([Christyson](https://github.com/christyson/)) - Script to check if an application profile in Veracode has a build running currently.  It also provides an option to delete the build if there is one running.
+
+- [Check Pass Fail](https://github.com/christyson/check_pass_fail) ([Christyson](https://github.com/christyson)) - A simple example script to check pass/fail status of a Veracode app profile (or sandbox) or for a list of app profiles with out sandboxes.
+
+- [Veracode Break the Build by Severity](https://github.com/christyson/Veracode-Break-The-Build-By-Severity) ([Christyson](https://github.com/christyson/)) - This project contains three python scripts useful for working with Veracode projects in a build pipeline to break the build if any findings of a given severity or higher are found.
+
+- [Veracode Scan Counts](https://github.com/tjarrettveracode/veracode-scan-counts) ([Tjarrettveracode](https://github.com/tjarrettveracode)) - Identify Veracode application profiles with one or more static scans in an incomplete state.
+
+### Other tasks
 
 - [Veracode PDF Reports](https://github.com/jphillips-vc/veracode-pdf-reports) ([Jphillips-vc](https://github.com/jphillips-vc)) - Pulls latest PDF reports from Veracode for recent Static and Dynamic scans.
 
 - [Veracode Policy Examples](https://github.com/tjarrettveracode/veracode-policy-examples) ([Tjarrettveracode](https://github.com/tjarrettveracode)) - A collection of example application security "policies as code" that can be added to your Veracode organization account.
 
-- [Veracode Promote Named Sandbox](https://github.com/cadonuno/Veracode-Promote-Named-Sandbox) ([cadonuno](https://github.com/cadonuno/)) - This will promote the latest scan of a named sandbox.
-
-- [Veracode Scan Counts](https://github.com/tjarrettveracode/veracode-scan-counts) ([Tjarrettveracode](https://github.com/tjarrettveracode)) - Identify Veracode application profiles with one or more static scans in an incomplete state.
-
-- [Veracode Workspace Auto Create](https://github.com/tjarrettveracode/veracode-workspace-auto-create) ([Tjarrettveracode](https://github.com/tjarrettveracode/)) - Uses the Veracode Agent Based Scan API and other Veracode REST APIs to automatically create a workspace for application profiles in a Veracode organization.
-
-- [Veracode Delete Sandboxes via Threshold](https://github.com/julz0815/VeracodeDeleteSandboxes) ([Julz0815](https://github.com/julz0815/)) - Java Script that will automatically delete Sandboxes from a profile via a configured threshold and the number of Sandboxes to be deleted.
-
 ## Developer tools
 
 ### Auto Packagers (for SAST)
+
+__Note__: Veracode recommends using the [auto-packaging capability](https://docs.veracode.com/r/About_auto_packaging) in the Veracode CLI (`veracode package`). These scripts are provided for reference only.
 
 - [JavaScript Auto Packager](https://github.com/dub-flow/veracode-javascript-packager) ([dub-flow](https://github.com/dub-flow/)) - CLI tool to automatically package a `JavaScript` application for Veracode Static Analysis
 
@@ -192,7 +201,7 @@ These projects are community contributed and not supported by Veracode. For a li
 
 - [Veracode Upload and Scan Shell Script](https://github.com/christyson/Veracode-Upload-and-Scan-Shell-Script) ([Christyson](https://github.com/christyson/)) - A shell script to upload and scan a application (zip or war etc.) and create the application if necessary. Uses Curl and hmac headers.
 
-## Pipeline Scan projects
+## Pipeline Scan 
 
 - [Pipeline2DetailedReport](https://github.com/jphillips-vc/pipeline2detailedreport) ([JPhillips-vc](https://github.com/jphillips-vc/)) - translate Veracode Pipeline Scan results into DetailedReport XML format, allowing you to import them into an IDE plugin for remediation.
 
@@ -206,7 +215,7 @@ These projects are community contributed and not supported by Veracode. For a li
 
 - [veracode-pipeline-with-baseline](https://github.com/runkalicious/veracode-pipeline-with-baseline) ([Runkalicious](https://github.com/runkalicious/)) - GitHub Action to perform a Veracode Pipeline Scan and, optionally, compare the results against a set of baseline results.
 
-## Dynamic Analysis projects
+## Dynamic Analysis 
 
 - [veracode-da-reset-scheduler](https://github.com/dennismedeiros/veracode-da-reset-recheduler) ([dennismedeiros](https://github.com/dennismedeiros)) - Resets all recurrent scheduled analysis jobs configured for one year that have expired.
 
@@ -214,7 +223,7 @@ These projects are community contributed and not supported by Veracode. For a li
 
 - [Veracode DAST Add bulk urls to blocklist](https://github.com/AaronButler-Veracode/veracode_DAST_add_to_blocklist) ([aabutler](https://github.com/AaronButler-Veracode)) - Adds a list of urls to the blocklist for an existing DAST scan.
 
-## SCA related projects
+## Software Composition Analysis
 
 - [Veracode-Get-EPSS-Info](https://github.com/cadonuno/Veracode-Get-EPSS-Info) ([cadonuno](https://github.com/cadonuno/)) - Gets all the SCA findings available to the user, including EPSS scores and percentiles.
 
@@ -225,6 +234,16 @@ These projects are community contributed and not supported by Veracode. For a li
 - [yarn-v3-workspaces-helper](https://github.com/julz0815/yarnv3-workspaces-helper) ([Julz0815](https://github.com/julz0815/)) - Creates yarn.lock files for each workspace to make the whole project scannable with Veracode's SCA solution. this is specifically for yarn version 3 and higher  
 
 - [veracode-bulk-cve-suppression](https://github.com/aszaryk/veracode-bulk-cve-suppression) ([aszaryk](https://github.com/aszaryk)) - Allows for bulk suppression of specific CVE across full application portfolio
+
+- [Bulk add teams to workspaces](https://github.com/cadonuno/add-team-to-workspace) ([cadonuno](https://github.com/cadonuno/)) - Allows for adding teams to workspaces in bulk.
+
+- [Veracode Workspace Auto Create](https://github.com/tjarrettveracode/veracode-workspace-auto-create) ([Tjarrettveracode](https://github.com/tjarrettveracode/)) - Uses the Veracode Agent Based Scan API and other Veracode REST APIs to automatically create a workspace for application profiles in a Veracode organization.
+
+## SBOM
+
+- [Veracode Get All SBOMs](https://github.com/cadonuno/Veracode-Bulk-SBOM) ([cadonuno](https://github.com/cadonuno/)) - Allows for bulk generation of SBOM json files. It works for both US and EU instances and has support for Upload and Scan and Agent-based scan.
+
+- [Veracode Get Single SBOM](https://github.com/cadonuno/Veracode-Get-Sbom) ([cadonuno](https://github.com/cadonuno/)) - Gets the SBOM for a single Application Profile or Workspace/Project pair.
 
 ## Results collection and display
 
@@ -289,6 +308,8 @@ These projects are community contributed and not supported by Veracode. For a li
 - [Veracode UM Powershell Tool](https://github.com/IGDEXE/Veracode-UM-Tool) ([IGD753](https://github.com/IGDEXE)) - A completed User management tool write in Powershell using the Veracode APIs. You can use to create, block, delete and update users, in Windows, Linux or Mac terminal. This a simplified and translated version from the original in [Portuguese](https://github.com/IGDEXE/Veracode-UM).
 
 - [Veracode UM Powershell Tool in Portuguese](https://github.com/IGDEXE/Veracode-UM) ([IGD753](https://github.com/IGDEXE)) - A completed User management tool write in Powershell using the Veracode APIs. This version is completed in Portuguese, and you can use to create, block, delete and update users, in Windows, Linux or Mac terminal.
+
+- [Veracode Bulk User Creator and Editor](https://github.com/cadonuno/Veracode-Bulk-User-Management) ([cadonuno](https://github.com/cadonuno/)) - This script allows for bulk modifying and/or creating users in Veracode.
 
 ## Application vulnerability correlation
 
