@@ -183,9 +183,11 @@ __Note__: Veracode recommends using the [auto-packaging capability](https://docs
 
 - [Insomnia](https://github.com/veracode/insomnia-plugin-veracode-hmac) ([Veracode](https://github.com/veracode/)) - Adds an HMAC authentication header to Veracode API requests in Insomnia.
 
-- [Veracode-Postman](https://github.com/veracode/veracode-postman) ([Veracode](https://github.com/veracode/)) - Pre-request authentication script and instructions for accessing Veracode APIs from Postman.
-
 - [Veracode-API-HMAC-Rapid-Api-Extension](https://github.com/literallyjustroy/Veracode-API-HMAC-Rapid-Api-Extension) ([Literallyjustroy](https://github.com/literallyjustroy)) - An extension for the RapidAPI (Paw) REST Client to authenticate into the Veracode REST APIs using HMAC.
+
+- [Veracode-Bruno](https://github.com/veracode/veracode-bruno) ([Veracode](https://github.com/veracode/)) - Pre-request authentication script and instructions for accessing Veracode APIs from [Bruno](https://www.usebruno.com/).
+
+- [Veracode-Postman](https://github.com/veracode/veracode-postman) ([Veracode](https://github.com/veracode/)) - Pre-request authentication script and instructions for accessing Veracode APIs from Postman.
 
 ### Other
 
