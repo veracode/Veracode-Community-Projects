@@ -295,6 +295,8 @@ __Note__: Veracode recommends using the [auto-packaging capability](https://docs
 
 - [TopDesk](https://github.com/daniel-marchi/Veracode.Integration.TopDesk) ([Daniel-Marchi](https://github.com/daniel-marchi)) - Integration with ITSM | CSC | ESM tool called [TopDesk](https://www.topdesk.com/).
 
+- [Veracode-Agent-SCA-Project-PDF](https://github.com/nazafur/Veracode-Agent-SCA-Project-PDF) ([nazafur](https://github.com/nazafur)) - Generates a PDF report for a Veracode Agent-Based SCA project.
+
 ## User provisioning, management and deprovisioning
 
 - [Azure AD SAML SSO Autocreating teams](https://dev.azure.com/jtotzek/_git/AD-Veracode-Teams) ([Jtotzek](https://dev.azure.com/jtotzek/)) - Code and documentation on configuring Azure Active Directory to automatically create teams as part of the just-in-time provisioning workflow via SAML.
