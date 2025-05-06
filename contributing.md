@@ -14,7 +14,9 @@ This resource is not intended to be comprehensive, but we welcome contributions 
 
 - We welcome open source projects that use the Veracode APIs and/or work with Veracode data (e.g. detailedreport XML or Findings API JSON). Submissions will be reviewed for API usage and completeness of functionality.
 - Please add the content to the `README.md` file and make sure that the edited list is in alphabetical order.
-- Submit a pull request.
+- Submit a pull request. 
+ 
+If you would like to receive your [OSS Contributor badge on the Community](https://community.veracode.com/s/village-awards), please include your username in the PR. 
 
 ## Removing from the List
 
