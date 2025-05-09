@@ -213,6 +213,8 @@ __Note__: Veracode recommends using the [auto-packaging capability](https://docs
 
 - [PipelineResultsCompare](https://github.com/cadonuno/PipelineResultsCompare) ([cadonuno](https://github.com/cadonuno/)) - checks if there are any issues present on a pipeline results file that aren't present on another, supporting filtering by severity.
 
+- [veracode-pipeline-mitigation](https://github.com/tjarrettveracode/veracode-pipeline-mitigation) ([Tjarrettveracode](https://github.com/tjarrettveracode)) - Retrieves findings with APPROVED mitigations from an application's policy scan (or sandbox) and creates a baseline file for Pipeline Scan. 
+
 - [veracode-pipeline-PR-comment](https://github.com/Lerer/veracode-pipeline-PR-comment) ([Lerer](https://github.com/Lerer/veracode-pipeline-PR-comment)) - Sends output of Pipeline Scan to a comment on a pull request.
 
 - [veracode-pipeline-with-baseline](https://github.com/runkalicious/veracode-pipeline-with-baseline) ([Runkalicious](https://github.com/runkalicious/)) - GitHub Action to perform a Veracode Pipeline Scan and, optionally, compare the results against a set of baseline results.
