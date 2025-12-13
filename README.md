@@ -201,6 +201,8 @@ __Note__: Veracode recommends using the [auto-packaging capability](https://docs
 
 - [Veracode QuickScan](https://github.com/relaxnow/veracode-quick-scan) ([relaxnow](https://github.com/relaxnow)) - PHP example of how to connect to the APIs, scan a couple of files and get results.
 
+- [Veracode TUI](https://github.com/dipsylala/veracode-tui) ([dipsylala](https://github.com/dipsylala)) - A Terminal User Interface for the Veracode Platform.
+
 - [Veracode Upload and Scan Shell Script](https://github.com/christyson/Veracode-Upload-and-Scan-Shell-Script) ([Christyson](https://github.com/christyson/)) - A shell script to upload and scan a application (zip or war etc.) and create the application if necessary. Uses Curl and hmac headers.
 
 ## Pipeline Scan 
