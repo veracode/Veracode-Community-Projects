@@ -36,6 +36,7 @@ These projects are community contributed and not supported by Veracode. For a li
 - [Secure coding examples](#secure-coding-examples)
 - [Insecure applications](#insecure-applications)
 - [Automating Security Labs tasks](#automating-security-labs-tasks)
+- [LLM Applications](#llm-applications)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
