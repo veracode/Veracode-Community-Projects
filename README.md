@@ -36,6 +36,7 @@ These projects are community contributed and not supported by Veracode. For a li
 - [Secure coding examples](#secure-coding-examples)
 - [Insecure applications](#insecure-applications)
 - [Automating Security Labs tasks](#automating-security-labs-tasks)
+- [LLM Applications](#llm-applications)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -388,3 +389,7 @@ __Note__: Veracode recommends using the [auto-packaging capability](https://docs
 ## Automating Security Labs tasks
 
 - [Security Labs Scripts](https://github.com/gmdavef/security-labs-scripts) ([Dave Ferguson](https://github.com/gmdavef)) - Python scripts to automate various administrative tasks in Veracode Security Labs.
+
+## LLM applications
+
+- [Veracode MCP](https://github.com/dipsylala/veracode-mcp) - a Veracode MCP to help with packaging, pipeline scanning, and platform.
