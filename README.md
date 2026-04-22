@@ -388,3 +388,7 @@ __Note__: Veracode recommends using the [auto-packaging capability](https://docs
 ## Automating Security Labs tasks
 
 - [Security Labs Scripts](https://github.com/gmdavef/security-labs-scripts) ([Dave Ferguson](https://github.com/gmdavef)) - Python scripts to automate various administrative tasks in Veracode Security Labs.
+
+## LLM applications
+
+- [Veracode MCP](https://github.com/dipsylala/veracode-mcp) - a Veracode MCP to help with packaging, pipeline scanning, and platform.
